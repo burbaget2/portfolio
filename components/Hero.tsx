@@ -27,11 +27,12 @@ export default function Hero() {
   }, [])
 
   // Create morphing wave path based on scroll - waves will deform as you scroll
-  // Made more pronounced so you can see it clearly
-  const morphFactor = Math.sin(scrollY * 0.01) * 60 // Creates wave morphing effect
-  const morphFactor2 = Math.cos(scrollY * 0.015) * 50 // Second wave for more complex morphing
-  const morphFactor3 = Math.sin(scrollY * 0.008) * 30 // Third factor for additional variation
-  const wavePath = `M0,${175 + morphFactor} C${150 + morphFactor2},${310 + morphFactor + morphFactor3} ${300 - morphFactor2},${40 - morphFactor + morphFactor3} ${450 + morphFactor2},${175 + morphFactor} C${600 - morphFactor2},${310 + morphFactor - morphFactor3} ${750 + morphFactor2},${40 - morphFactor - morphFactor3} ${900 - morphFactor2},${175 + morphFactor} C${1050 + morphFactor2},${310 + morphFactor + morphFactor3} ${1200 - morphFactor2},${40 - morphFactor + morphFactor3} ${1200 - morphFactor2},${40 - morphFactor + morphFactor3} L1200,350 L0,350 Z`
+  // Made more pronounced and visible
+  const morphFactor = Math.sin(scrollY * 0.02) * 50 // Creates wave morphing effect - faster frequency
+  const morphFactor2 = Math.cos(scrollY * 0.025) * 40 // Second wave for more complex morphing
+  const morphFactor3 = Math.sin(scrollY * 0.015) * 25 // Third factor for additional variation
+  // Ensure path extends fully from 0 to 1200 to avoid gaps
+  const wavePath = `M0,${175 + morphFactor} C${150 + morphFactor2},${310 + morphFactor + morphFactor3} ${300 - morphFactor2},${40 - morphFactor + morphFactor3} ${450 + morphFactor2},${175 + morphFactor} C${600 - morphFactor2},${310 + morphFactor - morphFactor3} ${750 + morphFactor2},${40 - morphFactor - morphFactor3} ${900 - morphFactor2},${175 + morphFactor} C${1050 + morphFactor2},${310 + morphFactor + morphFactor3} 1200,${40 - morphFactor + morphFactor3} 1200,${40 - morphFactor + morphFactor3} L1200,350 L0,350 Z`
   return (
     <>
       <section
@@ -72,10 +73,18 @@ export default function Hero() {
             bottom: 0, 
             left: 0, 
             right: 0, 
+            width: '100%',
             pointerEvents: 'none',
           }}
         >
-          <svg viewBox="0 0 1200 350" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <svg 
+            width="100%" 
+            height="100%" 
+            viewBox="0 0 1200 350" 
+            preserveAspectRatio="none" 
+            xmlns="http://www.w3.org/2000/svg"
+            style={{ display: 'block', width: '100%', height: '100%' }}
+          >
             <path d={wavePath} fill="var(--accent-warm)"/>
           </svg>
         </div>

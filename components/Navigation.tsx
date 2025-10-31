@@ -15,7 +15,7 @@ export default function Navigation() {
 
   return (
     <nav
-      className={isScrolled ? 'nav-scrolled' : ''}
+      className={isScrolled ? 'nav-scrolled' : 'nav-default'}
       style={{
         position: 'fixed',
         top: 0,
