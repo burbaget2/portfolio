@@ -1,3 +1,5 @@
+'use client'
+
 import Link from 'next/link'
 import { projects } from '@/data/projects'
 
@@ -23,6 +25,9 @@ export default function Projects() {
                       width: '100%',
                       height: '100%',
                       objectFit: 'cover',
+                    }}
+                    onError={(e) => {
+                      console.error('Thumbnail failed to load:', project.thumbnail);
                     }}
                   />
                 </div>

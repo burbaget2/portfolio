@@ -38,25 +38,25 @@ export const projects: Project[] = [
     longDescription: `Plotly Studio is Plotly's new flagship AI platform built to help teams explore data, produce dashboards, and generate production-ready applications faster than ever. I helped lead the end-to-end design for core Studio experiences, bridging product, UX, and engineering to deliver an AI-first workflow grounded in real user needs.
 
 My focus was on transforming design into working, testable product — not static artifacts. Using tools like Claude Code and Cursor, I vibe-coded complete flows directly into the Studio codebase. This enabled rapid iteration with users and collapsed delivery timelines from months to days.`,
-    thumbnail: '/images/projects/plotlystudio/image-2.png',
+    thumbnail: '/images/projects/plotlystudio/plotly-thumbnail.png',
     images: [
       {
-        src: '/images/projects/plotlystudio/image-2.png',
+        src: '/images/projects/plotlystudio/plotly-thumbnail.png',
         alt: 'Users can create AI generated visualizations',
         description: 'AI-powered visualization creation interface'
       },
       {
-        src: '/images/projects/plotlystudio/image-3.png',
+        src: '/images/projects/plotlystudio/plotly-1.png',
         alt: 'Users upload data',
         description: 'Data upload interface'
       },
       {
-        src: '/images/projects/plotlystudio/image-4.png',
+        src: '/images/projects/plotlystudio/plotly-2.png',
         alt: 'They set context using their preferred language',
         description: 'Natural language context setting'
       },
       {
-        src: '/images/projects/plotlystudio/image-5.png',
+        src: '/images/projects/plotlystudio/plotly-3.png',
         alt: 'AI generated dashboard',
         description: 'Generated dashboard with theme and chart customization options'
       },
@@ -86,25 +86,25 @@ We began by conducting interviews with customers to understand what they found u
 Based on this feedback, I developed a modular, web-based, fully mobile-friendly, customizable dashboarding system. Users have the flexibility to add and configure metrics they prioritize using a combination of configurable cards. These cards can be tailored in size and viewed as charts, lists, or even maps, offering a multitude of ways to visualize the same data according to a retailer's specific requirements.
 
 This system enables businesses to create and share targeted dashboards to monitor their operations and influence employee behaviour.`,
-    thumbnail: '/images/projects/dashboards/image-2.png',
+    thumbnail: '/images/projects/dashboards/dashboards-thumbnail.png',
     images: [
       {
-        src: '/images/projects/dashboards/image-2.png',
+        src: '/images/projects/dashboards/dashboards-thumbnail.png',
         alt: 'Configured Custom Dashboard',
         description: 'Example of a fully configured dashboard where a business has set up a variety of ways of consuming data'
       },
       {
-        src: '/images/projects/dashboards/image-3.png',
+        src: '/images/projects/dashboards/dashboards-1.png',
         alt: 'Dashboard List',
         description: 'A list of custom created dashboards that can be shared and reviewed at any time'
       },
       {
-        src: '/images/projects/dashboards/image-4.png',
+        src: '/images/projects/dashboards/dashboards-2.png',
         alt: 'Adding Metrics Card to a Dashboard',
         description: 'Screen where the user chooses the type of metrics card to add to a dashboard'
       },
       {
-        src: '/images/projects/dashboards/image-5.png',
+        src: '/images/projects/dashboards/dashboards-3.png',
         alt: 'Dashboard Management',
         description: 'Example of a dashboard management task'
       },
@@ -136,30 +136,30 @@ This system enables businesses to create and share targeted dashboards to monito
     longDescription: `As the Lead Designer at iQmetrix, I spearheaded the development of a tablet-based, touchscreen, fully mobile Retail Point of Sale System. This elegant system serves as a comprehensive solution for retailers to manage their day-to-day operations, covering everything from sales and orders to customer queues and inventory management. It boasts a visually stunning interface and user-friendly experience. Currently, it is being deployed in hundreds of stores, complemented by a robust web-based backend system for driving and reporting on retail operations.
 
 Additionally, I played a key role in the design of the back-of-house inventory management system and retail operations tool, contributing to the holistic improvement of the retail experience.`,
-    thumbnail: '/images/projects/retail/image-7.png',
+    thumbnail: '/images/projects/retail/retail-thumbnail.png',
     images: [
       {
-        src: '/images/projects/retail/image-6.png',
+        src: '/images/projects/retail/retail-1.png',
         alt: 'Online Inventory Management',
         description: 'Centralized experience that syncs product information and stock numbers between back of house, and point of sale.'
       },
       {
-        src: '/images/projects/retail/image-7.png',
+        src: '/images/projects/retail/retail-thumbnail.png',
         alt: 'Point of Sale Employee Experience',
         description: 'The service view of inventory and sales actions on tablet.'
       },
       {
-        src: '/images/projects/retail/image-8.png',
+        src: '/images/projects/retail/retail-2.png',
         alt: 'Customer Targeted Suggestions',
         description: 'Employee can suggest product offerings based on customer history and preferences'
       },
       {
-        src: '/images/projects/retail/image-9.png',
+        src: '/images/projects/retail/retail-3.png',
         alt: 'Loyalty',
         description: 'Employees can see customer loyalty accumulation, and suggest redemption'
       },
       {
-        src: '/images/projects/retail/image-10.png',
+        src: '/images/projects/retail/retail-4.png',
         alt: 'Invoice Management',
         description: 'Customer history can be retrieved for returns and verification at the point of sale and also in the back of house system'
       },
@@ -185,15 +185,15 @@ Additionally, I played a key role in the design of the back-of-house inventory m
 Whether it involved the nomination of vessels for safely transporting millions of barrels of oil or the flows facilitating inspectors in logging and recording inspection results, these workflows were of utmost importance. I take great pride in the work I accomplished during this time.
 
 The screens were not crafted for aesthetic appeal; rather, they were designed to be clinical, data-heavy, and efficient interfaces for navigating incredibly complex operations.`,
-    thumbnail: '/images/projects/navarik/image-11.png',
+    thumbnail: '/images/projects/navarik/navarik-thumbnail.png',
     images: [
       {
-        src: '/images/projects/navarik/image-11.png',
+        src: '/images/projects/navarik/navarik-thumbnail.png',
         alt: 'Navarik Inspection Interface',
         description: 'Inspection workflow interface'
       },
       {
-        src: '/images/projects/navarik/image-12.png',
+        src: '/images/projects/navarik/navarik-1.png',
         alt: 'Navarik Interface',
         description: 'Navarik product interface'
       },
@@ -225,20 +225,20 @@ The screens were not crafted for aesthetic appeal; rather, they were designed to
 **Key achievement** was the redesign and interaction architecture for EA Battlefield 2 website, and design of industry first online game viewer and intelligence tool.
 
 This allowed users playing the game to log into the site after they had played, and use an intelligence tool to plan with their clan their next strategies when they play again. So cool.`,
-    thumbnail: '/images/projects/ea-games/image-13.jpg',
+    thumbnail: '/images/projects/ea-games/ea-games-thumbnail.jpg',
     images: [
       {
-        src: '/images/projects/ea-games/image-13.jpg',
+        src: '/images/projects/ea-games/ea-games-thumbnail.jpg',
         alt: 'Battlefield 2 Modern Combat',
         description: 'Battlefield 2 game interface'
       },
       {
-        src: '/images/projects/ea-games/image-14.png',
+        src: '/images/projects/ea-games/ea-games-1.png',
         alt: 'EA Games Interface',
         description: 'EA Games website interface'
       },
       {
-        src: '/images/projects/ea-games/image-35.jpg',
+        src: '/images/projects/ea-games/ea-games-2.jpg',
         alt: 'Battlefield 2',
         description: 'Battlefield 2 game'
       },
@@ -278,30 +278,30 @@ This website ended up winning a Cannes Lion.
 **107**
 
 I worked on the navigation flow, and html templates along with the design and development teams.`,
-    thumbnail: '/images/projects/peugeot/image-15.png',
+    thumbnail: '/images/projects/peugeot/peugeot-thumbnail.png',
     images: [
       {
-        src: '/images/projects/peugeot/image-15.png',
+        src: '/images/projects/peugeot/peugeot-thumbnail.png',
         alt: 'Peugeot Site Screenshot',
         description: 'Peugeot website interface'
       },
       {
-        src: '/images/projects/peugeot/image-16.png',
+        src: '/images/projects/peugeot/peugeot-1.png',
         alt: 'Peugeot Site Screenshot',
         description: 'Peugeot website interface'
       },
       {
-        src: '/images/projects/peugeot/image-17.png',
+        src: '/images/projects/peugeot/peugeot-2.png',
         alt: 'Peugeot Site Screenshot',
         description: 'Peugeot website interface'
       },
       {
-        src: '/images/projects/peugeot/image-18.png',
+        src: '/images/projects/peugeot/peugeot-3.png',
         alt: 'Peugeot Site Screenshot',
         description: 'Peugeot website interface'
       },
       {
-        src: '/images/projects/peugeot/image-37.png',
+        src: '/images/projects/peugeot/peugeot-4.png',
         alt: 'Peugeot Site',
         description: 'Peugeot website'
       },
@@ -331,20 +331,20 @@ It was a fast moving, dynamic time. My role was to manage the design team resour
 I started of the design process calling on my skills in UX. Creating wireframes, testing, and vetting with stakeholders and development teams.
 
 In the end, the two websites, and customer account experience was delivered.`,
-    thumbnail: '/images/projects/bodog/image-19.jpg',
+    thumbnail: '/images/projects/bodog/bodog-thumbnail.jpg',
     images: [
       {
-        src: '/images/projects/bodog/image-19.jpg',
+        src: '/images/projects/bodog/bodog-thumbnail.jpg',
         alt: 'Bodog Homepage',
         description: 'Bodog.com homepage design'
       },
       {
-        src: '/images/projects/bodog/image-20.jpg',
+        src: '/images/projects/bodog/bodog-1.jpg',
         alt: 'Bodog .net Homepage',
         description: 'Bodog.net homepage final design'
       },
       {
-        src: '/images/projects/bodog/image-38.jpg',
+        src: '/images/projects/bodog/bodog-2.jpg',
         alt: 'Bodog Site',
         description: 'Bodog website'
       },
@@ -375,15 +375,15 @@ I was brought on to break down all the different designs into presentation templ
 Every website permutation had to be taken in account, and design components needed for all the needed use cases.
 
 This was all completed after a lot of late nights, and hard work, but the result saved and immense amount of back and forth between Intel, and the agency.`,
-    thumbnail: '/images/projects/intel/image-21.png',
+    thumbnail: '/images/projects/intel/intel-thumbnail.png',
     images: [
       {
-        src: '/images/projects/intel/image-21.png',
+        src: '/images/projects/intel/intel-thumbnail.png',
         alt: 'Intel CMS Interface',
         description: 'Intel content management system interface'
       },
       {
-        src: '/images/projects/intel/image-39.png',
+        src: '/images/projects/intel/intel-1.png',
         alt: 'Intel CMS',
         description: 'Intel CMS interface'
       },
@@ -415,20 +415,20 @@ We monitored the usage of the booking engine, trimming the length of the process
 I also worked on the general navigation, and template pages for package holidays, and all other areas of the site (hotel, car, insurance etc).
 
 I worked with the copywriters on holiday campaigns, and also banner ads that would be bought to drive potential vacationers to the site.`,
-    thumbnail: '/images/projects/ebookers/image-22.jpg',
+    thumbnail: '/images/projects/ebookers/ebookers-thumbnail.jpg',
     images: [
       {
-        src: '/images/projects/ebookers/image-22.jpg',
+        src: '/images/projects/ebookers/ebookers-thumbnail.jpg',
         alt: 'Ebookers Brisbane',
         description: 'Ebookers interface'
       },
       {
-        src: '/images/projects/ebookers/image-23.png',
+        src: '/images/projects/ebookers/ebookers-1.png',
         alt: 'Ebookers Interface',
         description: 'Ebookers booking interface screenshot'
       },
       {
-        src: '/images/projects/ebookers/image-40.jpg',
+        src: '/images/projects/ebookers/ebookers-2.jpg',
         alt: 'Ebookers',
         description: 'Ebookers website'
       },
@@ -455,30 +455,30 @@ I worked with the copywriters on holiday campaigns, and also banner ads that wou
 My approach began with extensive conversations across the organization to ascertain the essential content elements required for the site at a foundational level. Subsequently, I developed wireframes and interaction design patterns covering a wide array of basic use cases, including product launches, events, and the range of products and services offered by Best Buy. By adopting a component-driven strategy and leveraging a content management system, I created multiple design components adaptable to various configurations on different types of pages.
 
 This system now serves as the backbone of the current Best Buy site, with the company continuously utilizing and refining these components to provide comprehensive product and service information to millions of Canadians.`,
-    thumbnail: '/images/projects/bestbuy-strategy/image-6.png',
+    thumbnail: '/images/projects/bestbuy-strategy/bestbuy-strategy-thumbnail.png',
     images: [
       {
-        src: '/images/projects/bestbuy-strategy/image-5.png',
+        src: '/images/projects/bestbuy-strategy/bestbuy-strategy-1.png',
         alt: 'Best Buy Strategy Screenshot',
         description: 'UX Strategy work for Best Buy'
       },
       {
-        src: '/images/projects/bestbuy-strategy/image-6.png',
+        src: '/images/projects/bestbuy-strategy/bestbuy-strategy-thumbnail.png',
         alt: 'Best Buy Strategy Screenshot',
         description: 'UX Strategy transformation'
       },
       {
-        src: '/images/projects/bestbuy-strategy/image-7.png',
+        src: '/images/projects/bestbuy-strategy/bestbuy-strategy-2.png',
         alt: 'Best Buy Strategy Screenshot',
         description: 'Strategic UX initiatives'
       },
       {
-        src: '/images/projects/bestbuy-strategy/image-8.png',
+        src: '/images/projects/bestbuy-strategy/bestbuy-strategy-3.png',
         alt: 'Best Buy Strategy Screenshot',
         description: 'E-commerce experience redesign'
       },
       {
-        src: '/images/projects/bestbuy-strategy/image-31.png',
+        src: '/images/projects/bestbuy-strategy/bestbuy-strategy-4.png',
         alt: 'Best Buy Strategy',
         description: 'Best Buy UX Strategy work'
       },
@@ -505,10 +505,10 @@ This system now serves as the backbone of the current Best Buy site, with the co
 The conceptual blueprint mapped out key customer touchpoints and experiences across the entire bestbuy.ca ecosystem, from discovery through purchase and post-purchase support. By creating this visual and strategic document, I enabled teams to see how their individual work connected to the larger customer experience, fostering better collaboration and decision-making.
 
 This artifact became a critical reference point for strategic planning, helping teams prioritize features and initiatives based on their impact on the overall user journey rather than in isolation. The blueprint ensured that all teams were working toward the same customer experience goals, reducing friction and misalignment across the organization.`,
-    thumbnail: '/images/projects/best-buy-vision/image-32.png',
+    thumbnail: '/images/projects/best-buy-vision/bestbuy-vision-thumbnail.png',
     images: [
       {
-        src: '/images/projects/best-buy-vision/image-32.png',
+        src: '/images/projects/best-buy-vision/bestbuy-vision-thumbnail.png',
         alt: 'User Journey',
         description: 'User journey mapping artifact'
       },
@@ -530,30 +530,30 @@ This artifact became a critical reference point for strategic planning, helping 
     role: 'UX Designer',
     category: ['Service Design', 'Tax Services', 'User Research'],
     description: 'Assessing and Improving the Service Design Model for H&R Block. Worked on service design improvements to enhance the tax preparation experience.',
-    thumbnail: '/images/projects/hr-block/image-6.png', // hr issues.png
+    thumbnail: '/images/projects/hr-block/hr-block-thumbnail.png', // hr issues.png
     images: [
       {
-        src: '/images/projects/hr-block/image-6.png',
+        src: '/images/projects/hr-block/hr-block-thumbnail.png',
         alt: 'H&R Block Issues',
         description: 'Service design issues identified'
       },
       {
-        src: '/images/projects/hr-block/image-7.png',
+        src: '/images/projects/hr-block/hr-block-1.png',
         alt: 'Desktop Collapsed',
         description: 'Desktop interface design'
       },
       {
-        src: '/images/projects/hr-block/image-8.png',
+        src: '/images/projects/hr-block/hr-block-2.png',
         alt: 'Tax Scenario',
         description: 'Tax scenario interface'
       },
       {
-        src: '/images/projects/hr-block/image-9.png',
+        src: '/images/projects/hr-block/hr-block-3.png',
         alt: 'User Journey',
         description: 'User journey mapping for tax preparation'
       },
       {
-        src: '/images/projects/hr-block/image-10.png',
+        src: '/images/projects/hr-block/hr-block-4.png',
         alt: 'Filtering',
         description: 'Filtering interface'
       },
@@ -573,25 +573,25 @@ This artifact became a critical reference point for strategic planning, helping 
     category: ['Web Design', 'Data Visualization', 'Marketing', 'Design Thinking'],
     description: 'High profile website projects with data visualization for marketing purposes, applying design thinking methodologies.',
     longDescription: `Fishtank projects focused on creating high-profile websites with data visualization for marketing purposes. These projects applied design thinking methodologies to create engaging, data-driven experiences for marketing campaigns.`,
-    thumbnail: '/images/projects/fishtank/image-7.png',
+    thumbnail: '/images/projects/fishtank/fishtank-thumbnail.png',
     images: [
       {
-        src: '/images/projects/fishtank/image-7.png',
+        src: '/images/projects/fishtank/fishtank-thumbnail.png',
         alt: 'Travel Sask - Design Component Summary',
         description: 'Design Component Summary - Component configurations that can be used on any page within the website'
       },
       {
-        src: '/images/projects/fishtank/image-10.png',
+        src: '/images/projects/fishtank/fishtank-1.png',
         alt: 'Travel Sask - Targeted Content',
         description: 'Using user types to give different types of travel business owners the ability to filter content specific to their type of business'
       },
       {
-        src: '/images/projects/fishtank/image-11.png',
+        src: '/images/projects/fishtank/fishtank-2.png',
         alt: 'Travel Sask - Fishing Site',
         description: 'Using reusable components from the business hub, the same system could be applied to many other sites'
       },
       {
-        src: '/images/projects/fishtank/image-12.png',
+        src: '/images/projects/fishtank/fishtank-3.png',
         alt: 'Bow Valley College',
         description: 'Component driven redesign / navigation redesign'
       },
@@ -612,15 +612,15 @@ This artifact became a critical reference point for strategic planning, helping 
     category: ['Logistics', 'Enterprise Software', 'Supply Chain'],
     description: 'End-to-end logistic management design system for comprehensive supply chain and logistics operations.',
     longDescription: `PAYLOAD is an end-to-end logistic management design system. This comprehensive solution covers all aspects of logistics operations, from inventory management to shipping coordination, providing a unified interface for complex supply chain workflows.`,
-    thumbnail: '/images/projects/payload/image-11.png',
+    thumbnail: '/images/projects/payload/payload-thumbnail.png',
     images: [
       {
-        src: '/images/projects/payload/image-11.png',
+        src: '/images/projects/payload/payload-thumbnail.png',
         alt: 'Design Pattern Library',
         description: 'Created and maintained a design pattern library to ensure the development team, and company at large understands how all pages should look and behave'
       },
       {
-        src: '/images/projects/payload/image-13.png',
+        src: '/images/projects/payload/payload-1.png',
         alt: 'Field Ticket Reporting',
         description: 'As events happen out in the field in trucks, it is sent back to the head office where all the events are summarized, and the service can be billed out and seen by each party'
       },
@@ -641,15 +641,15 @@ This artifact became a critical reference point for strategic planning, helping 
     category: ['Retail Systems', 'Customer Experience', 'Queue Management'],
     description: 'Queue management system designed to optimize customer flow and service efficiency in retail environments.',
     longDescription: `Queue management system designed to optimize customer flow and service efficiency in retail environments. This system helps manage customer queues, wait times, and service appointments, improving both customer experience and operational efficiency.`,
-    thumbnail: '/images/projects/queue/image-13.png',
+    thumbnail: '/images/projects/queue/queue-thumbnail.png',
     images: [
       {
-        src: '/images/projects/queue/image-13.png',
+        src: '/images/projects/queue/queue-thumbnail.png',
         alt: 'Queue Screen',
         description: 'Queue management interface for retail environments'
       },
       {
-        src: '/images/projects/queue/image-14.png',
+        src: '/images/projects/queue/queue-1.png',
         alt: 'Customer Profiles',
         description: 'Customer information could be easily accessed by scanning ID or searching. Required legal documents could are attached to the profile, and the screen warns of expiries or issues'
       },
@@ -670,25 +670,25 @@ This artifact became a critical reference point for strategic planning, helping 
     category: ['E-commerce', 'Marketing', 'Apparel', 'Catalogs'],
     description: 'Marketing websites and apparel catalog systems for Nike, creating engaging product presentation and browsing experiences.',
     longDescription: `Marketing websites and apparel catalog systems for Nike. These projects focused on creating engaging product presentation and browsing experiences, showcasing Nike's athletic apparel and footwear through innovative catalog interfaces and marketing websites.`,
-    thumbnail: '/images/projects/nike/image-16.png',
+    thumbnail: '/images/projects/nike/nike-thumbnail.png',
     images: [
       {
-        src: '/images/projects/nike/image-15.jpg',
+        src: '/images/projects/nike/nike-1.jpg',
         alt: 'Nike Baltimore',
         description: 'Nike marketing site - Baltimore'
       },
       {
-        src: '/images/projects/nike/image-16.png',
+        src: '/images/projects/nike/nike-thumbnail.png',
         alt: 'Nike Jumpman 23',
         description: 'Nike Jumpman 23 marketing site'
       },
       {
-        src: '/images/projects/nike/image-17.jpg',
+        src: '/images/projects/nike/nike-2.jpg',
         alt: 'Nike Jumpman 23',
         description: 'Nike Jumpman 23 campaign'
       },
       {
-        src: '/images/projects/nike/image-18.jpg',
+        src: '/images/projects/nike/nike-3.jpg',
         alt: 'NikeGo Home',
         description: 'NikeGo homepage design'
       },
@@ -711,10 +711,10 @@ This artifact became a critical reference point for strategic planning, helping 
     longDescription: `Co-founder of a consulting company providing on-demand contracting services for Service Design, Product Strategy, and Development. We specialize in crafting product visions and designing/building digital experiences for ambitious innovators.
 
 We conducted a number of discovery sessions with clients and helped them craft their product visions. Ultimately, the incoming revenue did not support continuing, but in the short time we were able to help "ignite" product visions for three clients.`,
-    thumbnail: '/images/projects/ignite-works/image-5.png',
+    thumbnail: '/images/projects/ignite-works/ignite-works-thumbnail.png',
     images: [
       {
-        src: '/images/projects/ignite-works/image-5.png',
+        src: '/images/projects/ignite-works/ignite-works-thumbnail.png',
         alt: 'Ignite Works Home',
         description: 'Ignite Works Digital Services homepage'
       },

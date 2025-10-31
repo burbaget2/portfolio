@@ -1,3 +1,5 @@
+'use client'
+
 export interface ProjectImageProps {
   src: string
   alt: string
@@ -23,6 +25,11 @@ export default function ProjectImage({ src, alt, description }: ProjectImageProp
             width: '100%',
             height: 'auto',
             display: 'block',
+          }}
+          onError={(e) => {
+            console.error('Image failed to load:', src);
+            // Hide broken image
+            e.currentTarget.style.display = 'none';
           }}
         />
       </div>
