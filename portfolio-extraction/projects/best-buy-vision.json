@@ -1,0 +1,420 @@
+{
+  "slug": "best-buy-vision",
+  "url": "https://cheetah-accordion-l9n5.squarespace.com/#/high-level-user-journey-conceptual-blueprint-ux-artifact/",
+  "title": "Hello, I’m Tony!",
+  "content": "Hello, I’m Tony!I’m a seasoned UX Designer & Design Lead, passionate about crafting product and service experiences that simplify tasks, clarify information, and feel delightful to use. With over 20 years of experience, I’ve delivered seamless digital solutions for global brands and everyday users alike. I’m guided by user needs, and a user-centered approach. I bridge design and engineering by rapidly translating ideas into working code. Using tools like Claude Code, Cursor, and modern design systems, I “vibe code” end-to-end flows that can be tested, iterated, and shipped quickly, ensuring real user feedback drives constant improvement.This site is intentionally minimal to make the work below the focus. Hope you have fun exploring.",
+  "htmlContent": "\n\n<div class=\"sqs-html-content\" data-sqsp-text-block-content=\"\">\n  <h2 style=\"white-space:pre-wrap;\">Hello, I’m Tony!</h2><p class=\"\" style=\"white-space:pre-wrap;\">I’m a seasoned UX Designer &amp; Design Lead, passionate about crafting product and service experiences that simplify tasks, clarify information, and feel delightful to use. With over 20 years of experience, I’ve delivered seamless digital solutions for global brands and everyday users alike. I’m guided by user needs, and a user-centered approach. I bridge design and engineering by rapidly translating ideas into working code. Using tools like Claude Code, Cursor, and modern design systems, I “vibe code” end-to-end flows that can be tested, iterated, and shipped quickly, ensuring real user feedback drives constant improvement.</p><p class=\"\" style=\"white-space:pre-wrap;\"><em>This site is intentionally minimal to make the work below the focus. Hope you have fun exploring.</em></p>\n</div>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n\n\n\n",
+  "images": [
+    {
+      "index": 0,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1d6ce9c0-1652-4ebc-8b72-50900a5df617/tonyHeader2.png?format=1000w",
+      "alt": "Tony Burbage Portfolio",
+      "width": 359,
+      "height": 105,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-1.png",
+      "downloaded": true
+    },
+    {
+      "index": 1,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1533419558010-1852B1Q5YE8M5PRX3CH0/4_Dashboard_IIB.png",
+      "alt": "  Configured Custom Dashboard  Example of a fully configured dashboard where a business has set up a variety of ways of consuming data ",
+      "width": null,
+      "height": null,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-2.png",
+      "downloaded": true
+    },
+    {
+      "index": 2,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1655240148581-WI0IWVRE4SK2JTXGXYW2/Screen+Shot+2022-06-14+at+2.55.02+PM.png",
+      "alt": "  Dashboard List  A list of custom created dashboards that can be shared and reviewed at any time ",
+      "width": null,
+      "height": null,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-3.png",
+      "downloaded": true
+    },
+    {
+      "index": 3,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1533418745349-SQOLF38ZUT80E2Z0JT9X/3_new_card.png",
+      "alt": "  Adding Metrics Card to a Dashboard  Screen where the user chooses the type of metrics card to add to a dashboard ",
+      "width": null,
+      "height": null,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-4.png",
+      "downloaded": true
+    },
+    {
+      "index": 4,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1533419896600-8D2D6ACKGD2JH1I69MXA/Screen+Shot+2018-08-04+at+2.57.53+PM.png",
+      "alt": "  Dashboard Management  Example for of a dashboard management task ",
+      "width": null,
+      "height": null,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-5.png",
+      "downloaded": true
+    },
+    {
+      "index": 5,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/e8960423-ebe8-47e3-babc-b050bef8ac96/Example.png",
+      "alt": "",
+      "width": 1280,
+      "height": 983,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-6.png",
+      "downloaded": true
+    },
+    {
+      "index": 6,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1655241433420-1FQ8T31PGHV8C3GXOT49/Browse_Catalog_Bulk_V2.graffle.png",
+      "alt": "  Online Inventory Management   Centralized experience that syncs product information  and stock numbers between back of house, and point of sale. ",
+      "width": null,
+      "height": null,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-7.png",
+      "downloaded": true
+    },
+    {
+      "index": 7,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1533421442039-HBA0CGMGX3LNL377X6HJ/Screen+Shot+2018-08-04+at+3.23.42+PM.png",
+      "alt": "  Point of Sale Employee Experience  The service view of inventory and sales actions on tablet. ",
+      "width": null,
+      "height": null,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-8.png",
+      "downloaded": true
+    },
+    {
+      "index": 8,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1533421235727-6W2B58UU6WFZML0ZDTPL/Screen+Shot+2018-08-04+at+3.15.16+PM.png",
+      "alt": "  Customer Targeted Suggestions  Employee can suggest product offerings based on customer history and preferences ",
+      "width": null,
+      "height": null,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-9.png",
+      "downloaded": true
+    },
+    {
+      "index": 9,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1533421548990-8NL3RC76D6MD7ARB0UXG/Screen+Shot+2018-08-04+at+3.25.31+PM.png",
+      "alt": "  Loyalty   Employees can see customer loyalty accumulation, and suggest redemption ",
+      "width": null,
+      "height": null,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-10.png",
+      "downloaded": true
+    },
+    {
+      "index": 10,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1533421597921-OISGQN4VSZOZG5U6LX39/Screen+Shot+2018-08-04+at+3.26.19+PM.png",
+      "alt": "  Invoice Management  Customer history can be retrieved for returns and verification at the point of sale and also in the back of house system ",
+      "width": null,
+      "height": null,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-11.png",
+      "downloaded": true
+    },
+    {
+      "index": 11,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1533434840297-JP3G0XKUFW5M1COKUVLY/Screen+Shot+2018-08-04+at+7.06.31+PM.png",
+      "alt": "Screen Shot 2018-08-04 at 7.06.31 PM.png",
+      "width": null,
+      "height": null,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-12.png",
+      "downloaded": true
+    },
+    {
+      "index": 12,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1533433632446-NX1TWG1LHFWWJA10746E/Screen+Shot+2018-08-04+at+6.09.58+PM.png",
+      "alt": "Screen Shot 2018-08-04 at 6.09.58 PM.png",
+      "width": null,
+      "height": null,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-13.png",
+      "downloaded": true
+    },
+    {
+      "index": 13,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1533440405244-TR12R1WPNIEIBAXH567E/battlefield-2-modern-combat-20051104071448382-000-1.jpg",
+      "alt": "battlefield-2-modern-combat-20051104071448382-000-1.jpg",
+      "width": null,
+      "height": null,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-14.jpg",
+      "downloaded": true
+    },
+    {
+      "index": 14,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1533435465680-6VL6SKBYU03V21C3C1FQ/Screen+Shot+2018-08-04+at+7.09.08+PM.png",
+      "alt": "Screen Shot 2018-08-04 at 7.09.08 PM.png",
+      "width": null,
+      "height": null,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-15.png",
+      "downloaded": true
+    },
+    {
+      "index": 15,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1533425321629-OADLXD5QQWCER4KJTKSU/Screen+Shot+2018-08-04+at+4.28.27+PM.png",
+      "alt": "Screen Shot 2018-08-04 at 4.28.27 PM.png",
+      "width": null,
+      "height": null,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-16.png",
+      "downloaded": true
+    },
+    {
+      "index": 16,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1533425393001-YUST7N61IKJJCI8RJLYK/Screen+Shot+2018-08-04+at+4.29.21+PM.png",
+      "alt": "Screen Shot 2018-08-04 at 4.29.21 PM.png",
+      "width": null,
+      "height": null,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-17.png",
+      "downloaded": true
+    },
+    {
+      "index": 17,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1533425463845-4NEL32JWCZS6SD2GT9VA/Screen+Shot+2018-08-04+at+4.30.36+PM.png",
+      "alt": "Screen Shot 2018-08-04 at 4.30.36 PM.png",
+      "width": null,
+      "height": null,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-18.png",
+      "downloaded": true
+    },
+    {
+      "index": 18,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1533425468590-GNMQFHS54LWICIPSJINZ/Screen+Shot+2018-08-04+at+4.30.47+PM.png",
+      "alt": "Screen Shot 2018-08-04 at 4.30.47 PM.png",
+      "width": null,
+      "height": null,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-19.png",
+      "downloaded": true
+    },
+    {
+      "index": 19,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1533499070317-60HQYL1EUMAONU8ECJDK/bodog.jpg",
+      "alt": "bodog.jpg",
+      "width": null,
+      "height": null,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-20.jpg",
+      "downloaded": true
+    },
+    {
+      "index": 20,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1533499070936-VZR7D8XXYTF7RQZHMUD8/bodog-net-homepage-final.jpg",
+      "alt": "bodog-net-homepage-final.jpg",
+      "width": null,
+      "height": null,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-21.jpg",
+      "downloaded": true
+    },
+    {
+      "index": 21,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1533436861361-BPKUOOMJKE5W5EW77O5W/Screen+Shot+2018-08-04+at+7.40.11+PM.png",
+      "alt": "Screen Shot 2018-08-04 at 7.40.11 PM.png",
+      "width": null,
+      "height": null,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-22.png",
+      "downloaded": true
+    },
+    {
+      "index": 22,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1533438102708-3E5WQ055Z3KD8SGR8LZ2/Brisbane.jpg",
+      "alt": "Brisbane.jpg",
+      "width": null,
+      "height": null,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-23.jpg",
+      "downloaded": true
+    },
+    {
+      "index": 23,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1533438109094-048LC3EEIGLRD66ZES91/Screen+Shot+2018-08-04+at+7.56.23+PM.png",
+      "alt": "Screen Shot 2018-08-04 at 7.56.23 PM.png",
+      "width": null,
+      "height": null,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-24.png",
+      "downloaded": true
+    },
+    {
+      "index": 24,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/06bae3c7-da6e-4bd1-9979-aacbd5c91d4f/Screenshot+2025-10-27+at+6.23.46%E2%80%AFPM.png?format=300w",
+      "alt": "Screenshot 2025-10-27 at 6.23.46 PM.png",
+      "width": 300,
+      "height": 207,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-25.png",
+      "downloaded": true
+    },
+    {
+      "index": 25,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1533419558010-1852B1Q5YE8M5PRX3CH0/4_Dashboard_IIB.png?format=300w",
+      "alt": "  Configured Custom Dashboard  Example of a fully configured dashboard where a business has set up a variety of ways of consuming data ",
+      "width": 300,
+      "height": 243,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-26.png",
+      "downloaded": true
+    },
+    {
+      "index": 26,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1712767476466-DYNL8YZHHYN1VLBBS1E7/Screenshot+2024-04-10+at+10.44.18%E2%80%AFAM.png?format=300w",
+      "alt": "Screenshot 2024-04-10 at 10.44.18 AM.png",
+      "width": 300,
+      "height": 218,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-27.png",
+      "downloaded": true
+    },
+    {
+      "index": 27,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1712623220805-CHNJZPFCDKHPODGSTBA7/IW_hero.png?format=300w",
+      "alt": "IW_hero.png",
+      "width": 300,
+      "height": 184,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-28.png",
+      "downloaded": true
+    },
+    {
+      "index": 28,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1544988042423-ESM3Q23EV2XACVFF9KG9/Screen+Shot+2018-12-16+at+10.43.43+AM.png?format=300w",
+      "alt": "Screen Shot 2018-12-16 at 10.43.43 AM.png",
+      "width": 300,
+      "height": 220,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-29.png",
+      "downloaded": true
+    },
+    {
+      "index": 29,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1711997786315-EKFVW113JQEUR5I27IT7/user+journey.png?format=300w",
+      "alt": "user journey.png",
+      "width": 300,
+      "height": 171,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-30.png",
+      "downloaded": true
+    },
+    {
+      "index": 30,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1655161507267-6HKP3ZOFLM1NBCC1DYFS/Example.png?format=2500w",
+      "alt": "Example.png",
+      "width": 2500,
+      "height": 1921,
+      "context": "<img src=\"https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1655161507267-6HKP3ZOFLM1NBCC1DYFS/Example.png?format=500w\">",
+      "localPath": "project-images/best-buy-vision/image-31.png",
+      "downloaded": true
+    },
+    {
+      "index": 31,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1655241433420-1FQ8T31PGHV8C3GXOT49/Browse_Catalog_Bulk_V2.graffle.png?format=300w",
+      "alt": "  Online Inventory Management   Centralized experience that syncs product information  and stock numbers between back of house, and point of sale. ",
+      "width": 300,
+      "height": 281,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-32.png",
+      "downloaded": true
+    },
+    {
+      "index": 32,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1590594674783-8CWROGQ6DHEBMBB1SR71/image-asset.png?format=300w",
+      "alt": "",
+      "width": 300,
+      "height": 429,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-33.png",
+      "downloaded": true
+    },
+    {
+      "index": 33,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1712085342899-28QDUTW1Y8T4UV79FLIP/Screen%2BShot%2B2018-08-04%2Bat%2B3.14.35%2BPM.png?format=300w",
+      "alt": "Screen+Shot+2018-08-04+at+3.14.35+PM.png",
+      "width": 300,
+      "height": 225,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-34.png",
+      "downloaded": true
+    },
+    {
+      "index": 34,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1712000807690-1GSET4EML38UWWF3OX4N/Screen%2BShot%2B2018-08-04%2Bat%2B7.06.31%2BPM.png?format=300w",
+      "alt": "Screen+Shot+2018-08-04+at+7.06.31+PM.png",
+      "width": 300,
+      "height": 232,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-35.png",
+      "downloaded": true
+    },
+    {
+      "index": 35,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1533440405244-TR12R1WPNIEIBAXH567E/battlefield-2-modern-combat-20051104071448382-000-1.jpg?format=300w",
+      "alt": "",
+      "width": 300,
+      "height": 209,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-36.jpg",
+      "downloaded": true
+    },
+    {
+      "index": 36,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/6bce380a-1f26-4bdd-b80b-93bc74737aed/jumpman23_9.jpg?format=300w",
+      "alt": "jumpman23_9.jpg",
+      "width": 300,
+      "height": 169,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-37.jpg",
+      "downloaded": true
+    },
+    {
+      "index": 37,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1533425321629-OADLXD5QQWCER4KJTKSU/Screen+Shot+2018-08-04+at+4.28.27+PM.png?format=300w",
+      "alt": "",
+      "width": 300,
+      "height": 173,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-38.png",
+      "downloaded": true
+    },
+    {
+      "index": 38,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1533499070317-60HQYL1EUMAONU8ECJDK/bodog.jpg?format=300w",
+      "alt": "",
+      "width": 300,
+      "height": 287,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-39.jpg",
+      "downloaded": true
+    },
+    {
+      "index": 39,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1533438595446-28ROCSTUUHY7K8YI578K/Screen+Shot+2018-08-04+at+7.40.11+PM.png?format=300w",
+      "alt": "Screen Shot 2018-08-04 at 7.40.11 PM.png",
+      "width": 300,
+      "height": 269,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-40.png",
+      "downloaded": true
+    },
+    {
+      "index": 40,
+      "src": "https://images.squarespace-cdn.com/content/v1/5b465c4270e8025a2ede92ee/1533438102708-3E5WQ055Z3KD8SGR8LZ2/Brisbane.jpg?format=300w",
+      "alt": "",
+      "width": 300,
+      "height": 294,
+      "context": "",
+      "localPath": "project-images/best-buy-vision/image-41.jpg",
+      "downloaded": true
+    }
+  ],
+  "extractedAt": "2025-10-31T20:47:24.444Z"
+}

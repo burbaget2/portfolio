@@ -20,7 +20,7 @@ export default function Projects() {
               className="project-thumbnail"
             >
               {project.thumbnail && (
-                <div style={{ position: 'relative', width: '100%', aspectRatio: '4/3', overflow: 'hidden' }}>
+                <div style={{ position: 'relative', width: '100%', aspectRatio: '16/9', overflow: 'hidden', flexShrink: 0 }}>
                   <img 
                     src={project.thumbnail} 
                     alt={project.title}

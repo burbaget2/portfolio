@@ -28,10 +28,58 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    id: 'plotly-studio',
+    slug: 'plotly-studio',
+    title: 'Plotly Studio',
+    client: 'Plotly Studio',
+    role: 'UX Designer',
+    category: ['AI/ML', 'Data Visualization', 'Product Design'],
+    description: 'AI-powered data visualization platform where users can create beautiful dashboards by uploading data and describing their visualization needs in natural language.',
+    longDescription: `Plotly Studio is an innovative AI-powered data visualization platform. Users can create AI-generated visualizations by uploading their data and setting context using their preferred language. The app can be themed, charts edited, and dashboards published and shared.
+
+The platform allows users to:
+- Upload data in various formats
+- Describe visualization needs in natural language
+- Generate beautiful dashboards driven by AI
+- Customize and theme the visualizations
+- Edit charts and add new visualizations
+- Publish and share dashboards`,
+    thumbnail: '/images/projects/plotlystudio/image-2.png',
+    images: [
+      {
+        src: '/images/projects/plotlystudio/image-2.png',
+        alt: 'Users can create AI generated visualizations',
+        description: 'AI-powered visualization creation interface'
+      },
+      {
+        src: '/images/projects/plotlystudio/image-3.png',
+        alt: 'Users upload data',
+        description: 'Data upload interface'
+      },
+      {
+        src: '/images/projects/plotlystudio/image-4.png',
+        alt: 'They set context using their preferred language',
+        description: 'Natural language context setting'
+      },
+      {
+        src: '/images/projects/plotlystudio/image-5.png',
+        alt: 'AI generated dashboard',
+        description: 'Generated dashboard with theme and chart customization options'
+      },
+    ],
+    tags: ['AI/ML', 'Data Visualization', 'Product Design', 'Natural Language Processing'],
+    achievements: [
+      'AI-powered dashboard generation',
+      'Natural language interface',
+      'Customizable themes and charts',
+      'Publish and share functionality'
+    ]
+  },
+  {
     id: 'data-viz-dashboards',
     slug: 'data-visualization-for-businesses',
-    title: 'Plotly Studio - Data Visualization for Businesses',
-    client: 'Plotly Studio / iQmetrix',
+    title: 'Data Visualization for Businesses',
+    client: 'iQmetrix',
     role: 'UX Designer',
     category: ['Data Visualization', 'Dashboard Design', 'Enterprise'],
     description: 'Redesigned sales performance dashboards for the dominant point-of-sale system in the wireless industry. Created a modular, web-based, fully mobile-friendly, customizable dashboarding system.',
@@ -42,25 +90,25 @@ We began by conducting interviews with customers to understand what they found u
 Based on this feedback, I developed a modular, web-based, fully mobile-friendly, customizable dashboarding system. Users have the flexibility to add and configure metrics they prioritize using a combination of configurable cards. These cards can be tailored in size and viewed as charts, lists, or even maps, offering a multitude of ways to visualize the same data according to a retailer's specific requirements.
 
 This system enables businesses to create and share targeted dashboards to monitor their operations and influence employee behaviour.`,
-    thumbnail: '/images/projects/data-viz/image-2.png',
+    thumbnail: '/images/projects/dashboards/image-2.png',
     images: [
       {
-        src: '/images/projects/data-viz/image-2.png',
+        src: '/images/projects/dashboards/image-2.png',
         alt: 'Configured Custom Dashboard',
         description: 'Example of a fully configured dashboard where a business has set up a variety of ways of consuming data'
       },
       {
-        src: '/images/projects/data-viz/image-3.png',
+        src: '/images/projects/dashboards/image-3.png',
         alt: 'Dashboard List',
         description: 'A list of custom created dashboards that can be shared and reviewed at any time'
       },
       {
-        src: '/images/projects/data-viz/image-4.png',
+        src: '/images/projects/dashboards/image-4.png',
         alt: 'Adding Metrics Card to a Dashboard',
         description: 'Screen where the user chooses the type of metrics card to add to a dashboard'
       },
       {
-        src: '/images/projects/data-viz/image-5.png',
+        src: '/images/projects/dashboards/image-5.png',
         alt: 'Dashboard Management',
         description: 'Example of a dashboard management task'
       },
@@ -92,47 +140,32 @@ This system enables businesses to create and share targeted dashboards to monito
     longDescription: `As the Lead Designer at iQmetrix, I spearheaded the development of a tablet-based, touchscreen, fully mobile Retail Point of Sale System. This elegant system serves as a comprehensive solution for retailers to manage their day-to-day operations, covering everything from sales and orders to customer queues and inventory management. It boasts a visually stunning interface and user-friendly experience. Currently, it is being deployed in hundreds of stores, complemented by a robust web-based backend system for driving and reporting on retail operations.
 
 Additionally, I played a key role in the design of the back-of-house inventory management system and retail operations tool, contributing to the holistic improvement of the retail experience.`,
-    thumbnail: '/images/projects/iqmetrix/image-7.png',
+    thumbnail: '/images/projects/retail/image-7.png',
     images: [
       {
-        src: '/images/projects/iqmetrix/image-6.png',
+        src: '/images/projects/retail/image-6.png',
         alt: 'Online Inventory Management',
         description: 'Centralized experience that syncs product information and stock numbers between back of house, and point of sale.'
       },
       {
-        src: '/images/projects/iqmetrix/image-7.png',
+        src: '/images/projects/retail/image-7.png',
         alt: 'Point of Sale Employee Experience',
         description: 'The service view of inventory and sales actions on tablet.'
       },
       {
-        src: '/images/projects/iqmetrix/image-8.png',
+        src: '/images/projects/retail/image-8.png',
         alt: 'Customer Targeted Suggestions',
         description: 'Employee can suggest product offerings based on customer history and preferences'
       },
       {
-        src: '/images/projects/iqmetrix/image-9.png',
+        src: '/images/projects/retail/image-9.png',
         alt: 'Loyalty',
         description: 'Employees can see customer loyalty accumulation, and suggest redemption'
       },
       {
-        src: '/images/projects/iqmetrix/image-10.png',
+        src: '/images/projects/retail/image-10.png',
         alt: 'Invoice Management',
         description: 'Customer history can be retrieved for returns and verification at the point of sale and also in the back of house system'
-      },
-      {
-        src: '/images/projects/iqmetrix/image-31.png',
-        alt: 'Browse Catalog Bulk',
-        description: 'Inventory browsing interface'
-      },
-      {
-        src: '/images/projects/iqmetrix/image-33.png',
-        alt: 'POS Interface',
-        description: 'Point of sale interface detail'
-      },
-      {
-        src: '/images/projects/iqmetrix/image-34.png',
-        alt: 'POS Interface Detail',
-        description: 'Additional point of sale interface'
       },
     ],
     tags: ['UX Design', 'UI Design', 'Mobile Design', 'Retail Systems', 'Inventory Management', 'Touchscreen'],
@@ -411,6 +444,218 @@ I worked with the copywriters on holiday campaigns, and also banner ads that wou
       'Trimmed booking process length',
       'Clearer path to completion',
       'Template pages for all travel services'
+    ]
+  },
+  {
+    id: 'best-buy-strategy',
+    slug: 'best-buy-ux-strategy',
+    title: 'Best Buy - UX Strategy that Transformed bestbuy.ca',
+    client: 'Best Buy Canada',
+    role: 'UX Strategist',
+    category: ['E-commerce', 'UX Strategy', 'Transformation'],
+    description: 'UX Strategy that Transformed bestbuy.ca to its Current Robust Platform. Led strategic UX initiatives that fundamentally transformed the e-commerce experience for Best Buy Canada.',
+    thumbnail: '/images/projects/best-buy-vision/image-6.png', // Example.png
+    images: [],
+    tags: ['UX Strategy', 'E-commerce', 'Transformation', 'Platform Design'],
+    achievements: [
+      'Transformed bestbuy.ca to current robust platform',
+      'Strategic UX initiatives',
+      'Fundamental e-commerce experience redesign'
+    ]
+  },
+  {
+    id: 'best-buy-vision',
+    slug: 'best-buy-united-vision',
+    title: 'Best Buy - Connecting Teams with a United Vision',
+    client: 'Best Buy',
+    role: 'UX Strategist',
+    category: ['UX Strategy', 'Team Alignment', 'User Journey'],
+    description: 'Created high-level user journey conceptual blueprint to connect teams with a united vision. Aligned cross-functional teams around shared user experience principles.',
+    thumbnail: '/images/projects/best-buy-vision/image-29.png', // user journey.png
+    images: [],
+    tags: ['UX Strategy', 'Team Alignment', 'User Journey', 'Blueprint Design'],
+    achievements: [
+      'High-level user journey conceptual blueprint',
+      'Connected teams with united vision',
+      'Cross-functional alignment'
+    ]
+  },
+  {
+    id: 'hr-block',
+    slug: 'hr-block-service-design',
+    title: 'H&R Block - Assessing and Improving the Service Design Model',
+    client: 'H&R Block',
+    role: 'UX Designer',
+    category: ['Service Design', 'Tax Services', 'User Research'],
+    description: 'Assessing and Improving the Service Design Model for H&R Block. Worked on service design improvements to enhance the tax preparation experience.',
+    thumbnail: '/images/projects/hr-block/image-6.png', // hr issues.png
+    images: [
+      {
+        src: '/images/projects/hr-block/image-6.png',
+        alt: 'H&R Block Issues',
+        description: 'Service design issues identified'
+      },
+      {
+        src: '/images/projects/hr-block/image-7.png',
+        alt: 'Desktop Collapsed',
+        description: 'Desktop interface design'
+      },
+      {
+        src: '/images/projects/hr-block/image-8.png',
+        alt: 'Tax Scenario',
+        description: 'Tax scenario interface'
+      },
+      {
+        src: '/images/projects/hr-block/image-9.png',
+        alt: 'User Journey',
+        description: 'User journey mapping for tax preparation'
+      },
+      {
+        src: '/images/projects/hr-block/image-10.png',
+        alt: 'Filtering',
+        description: 'Filtering interface'
+      },
+    ],
+    tags: ['Service Design', 'Tax Services', 'User Research', 'Process Improvement'],
+    achievements: [
+      'Service design model improvements',
+      'Enhanced tax preparation experience'
+    ]
+  },
+  {
+    id: 'fishtank',
+    slug: 'fishtank-high-profile-websites',
+    title: 'Fishtank - High Profile Websites - Data Viz for Marketing - Design Thinking',
+    client: 'Fishtank',
+    role: 'UX Designer',
+    category: ['Web Design', 'Data Visualization', 'Marketing', 'Design Thinking'],
+    description: 'High profile website projects with data visualization for marketing purposes, applying design thinking methodologies.',
+    longDescription: `Fishtank projects focused on creating high-profile websites with data visualization for marketing purposes. These projects applied design thinking methodologies to create engaging, data-driven experiences for marketing campaigns.`,
+    thumbnail: '/images/projects/fishtank/image-7.png',
+    images: [
+      {
+        src: '/images/projects/fishtank/image-7.png',
+        alt: 'Travel Sask - Design Component Summary',
+        description: 'Design Component Summary - Component configurations that can be used on any page within the website'
+      },
+      {
+        src: '/images/projects/fishtank/image-10.png',
+        alt: 'Travel Sask - Targeted Content',
+        description: 'Using user types to give different types of travel business owners the ability to filter content specific to their type of business'
+      },
+      {
+        src: '/images/projects/fishtank/image-11.png',
+        alt: 'Travel Sask - Fishing Site',
+        description: 'Using reusable components from the business hub, the same system could be applied to many other sites'
+      },
+      {
+        src: '/images/projects/fishtank/image-12.png',
+        alt: 'Bow Valley College',
+        description: 'Component driven redesign / navigation redesign'
+      },
+    ],
+    tags: ['Web Design', 'Data Visualization', 'Marketing', 'Design Thinking'],
+    achievements: [
+      'High-profile website designs',
+      'Data visualization for marketing',
+      'Design thinking methodologies'
+    ]
+  },
+  {
+    id: 'payload',
+    slug: 'payload-logistic-management',
+    title: 'PAYLOAD - End-to-End Logistic Management Design',
+    client: 'PAYLOAD',
+    role: 'UX Designer',
+    category: ['Logistics', 'Enterprise Software', 'Supply Chain'],
+    description: 'End-to-end logistic management design system for comprehensive supply chain and logistics operations.',
+    longDescription: `PAYLOAD is an end-to-end logistic management design system. This comprehensive solution covers all aspects of logistics operations, from inventory management to shipping coordination, providing a unified interface for complex supply chain workflows.`,
+    thumbnail: '/images/projects/payload/image-11.png',
+    images: [
+      {
+        src: '/images/projects/payload/image-11.png',
+        alt: 'Design Pattern Library',
+        description: 'Created and maintained a design pattern library to ensure the development team, and company at large understands how all pages should look and behave'
+      },
+      {
+        src: '/images/projects/payload/image-13.png',
+        alt: 'Field Ticket Reporting',
+        description: 'As events happen out in the field in trucks, it is sent back to the head office where all the events are summarized, and the service can be billed out and seen by each party'
+      },
+    ],
+    tags: ['Logistics', 'Enterprise Software', 'Supply Chain', 'UX Design'],
+    achievements: [
+      'End-to-end logistics solution',
+      'Comprehensive supply chain management',
+      'Unified workflow interface'
+    ]
+  },
+  {
+    id: 'queue',
+    slug: 'queue-management',
+    title: 'Queue Management System',
+    client: 'iQmetrix',
+    role: 'UX Designer',
+    category: ['Retail Systems', 'Customer Experience', 'Queue Management'],
+    description: 'Queue management system designed to optimize customer flow and service efficiency in retail environments.',
+    longDescription: `Queue management system designed to optimize customer flow and service efficiency in retail environments. This system helps manage customer queues, wait times, and service appointments, improving both customer experience and operational efficiency.`,
+    thumbnail: '/images/projects/queue/image-13.png',
+    images: [
+      {
+        src: '/images/projects/queue/image-13.png',
+        alt: 'Queue Screen',
+        description: 'Queue management interface for retail environments'
+      },
+      {
+        src: '/images/projects/queue/image-14.png',
+        alt: 'Customer Profiles',
+        description: 'Customer information could be easily accessed by scanning ID or searching. Required legal documents could are attached to the profile, and the screen warns of expiries or issues'
+      },
+    ],
+    tags: ['Retail Systems', 'Customer Experience', 'Queue Management', 'UX Design'],
+    achievements: [
+      'Optimized customer flow',
+      'Improved service efficiency',
+      'Enhanced customer experience'
+    ]
+  },
+  {
+    id: 'nike',
+    slug: 'nike-marketing-sites',
+    title: 'Nike Marketing Sites / Apparel Catalogs',
+    client: 'Nike',
+    role: 'UX Designer',
+    category: ['E-commerce', 'Marketing', 'Apparel', 'Catalogs'],
+    description: 'Marketing websites and apparel catalog systems for Nike, creating engaging product presentation and browsing experiences.',
+    longDescription: `Marketing websites and apparel catalog systems for Nike. These projects focused on creating engaging product presentation and browsing experiences, showcasing Nike's athletic apparel and footwear through innovative catalog interfaces and marketing websites.`,
+    thumbnail: '/images/projects/nike/image-16.png',
+    images: [
+      {
+        src: '/images/projects/nike/image-15.jpg',
+        alt: 'Nike Baltimore',
+        description: 'Nike marketing site - Baltimore'
+      },
+      {
+        src: '/images/projects/nike/image-16.png',
+        alt: 'Nike Jumpman 23',
+        description: 'Nike Jumpman 23 marketing site'
+      },
+      {
+        src: '/images/projects/nike/image-17.jpg',
+        alt: 'Nike Jumpman 23',
+        description: 'Nike Jumpman 23 campaign'
+      },
+      {
+        src: '/images/projects/nike/image-18.jpg',
+        alt: 'NikeGo Home',
+        description: 'NikeGo homepage design'
+      },
+    ],
+    tags: ['E-commerce', 'Marketing', 'Apparel', 'Catalogs', 'UX Design'],
+    achievements: [
+      'Marketing website designs',
+      'Apparel catalog systems',
+      'Engaging product presentation'
     ]
   },
 ]

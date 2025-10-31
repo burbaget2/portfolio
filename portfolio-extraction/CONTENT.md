@@ -2,7 +2,7 @@
 # Portfolio Content Extraction
 
 **Source:** https://cheetah-accordion-l9n5.squarespace.com/
-**Extracted:** 10/31/2025, 1:45:39 PM
+**Extracted:** 10/31/2025, 2:39:33 PM
 **Page Title:** Tony Burbage Portfolio
 
 ---
