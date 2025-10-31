@@ -30,7 +30,7 @@ export const projects: Project[] = [
   {
     id: 'data-viz-dashboards',
     slug: 'data-visualization-for-businesses',
-    title: 'Data Visualization for Businesses',
+    title: 'Plotly Studio - Data Visualization for Businesses',
     client: 'Plotly Studio / iQmetrix',
     role: 'UX Designer',
     category: ['Data Visualization', 'Dashboard Design', 'Enterprise'],

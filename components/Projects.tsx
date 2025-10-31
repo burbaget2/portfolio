@@ -39,23 +39,6 @@ export default function Projects() {
                 <p className="project-thumbnail-description">
                   {project.description}
                 </p>
-                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
-                  {project.tags.slice(0, 3).map((tag, tagIndex) => (
-                    <span
-                      key={tagIndex}
-                      style={{
-                        padding: '0.25rem 0.75rem',
-                        backgroundColor: 'var(--background-alt)',
-                        color: 'var(--text)',
-                        borderRadius: '1rem',
-                        fontSize: '0.75rem',
-                        fontWeight: 500,
-                      }}
-                    >
-                      {tag}
-                    </span>
-                  ))}
-                </div>
               </div>
             </Link>
           ))}

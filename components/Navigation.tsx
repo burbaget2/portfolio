@@ -38,7 +38,7 @@ export default function Navigation() {
           }}
         >
           <img 
-            src="/images/tony-photo.png" 
+            src="/images/tonyheadshot.png" 
             alt="Tony Burbage"
             style={{
               width: '50px',
