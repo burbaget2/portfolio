@@ -15,6 +15,8 @@
   --text-light: #666666;
   --border: #e0e0e0;
   --shadow: rgba(0, 0, 0, 0.08);
+  --accent-warm: #f5ebe6;
+  --accent-warm-rgb: 245, 235, 230;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -29,6 +31,8 @@
     --text-light: #b0b0b0;
     --border: #444444;
     --shadow: rgba(0, 0, 0, 0.3);
+    --accent-warm: #2a241f;
+    --accent-warm-rgb: 42, 36, 31;
   }
 }
 
@@ -74,6 +78,35 @@ a:hover {
 
 .section-oroya:nth-child(even) {
   background-color: var(--background-alt);
+}
+
+/* Wave divider styles */
+.wave-divider {
+  position: absolute;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.wave-divider svg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.wave-divider path {
+  fill: var(--accent-warm);
+}
+
+/* Hero to About flow */
+.hero-about-flow {
+  background-color: var(--accent-warm);
+  position: relative;
 }
 
 /* OROYA Typography Pattern - Two-line headers */
