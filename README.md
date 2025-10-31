@@ -2,6 +2,22 @@
 
 A modern, responsive portfolio website built with Next.js, ready to deploy on Vercel.
 
+## 📚 **Important: Full Documentation**
+
+For complete details about this project, including all design decisions, implementation details, and technical notes, see **[PROJECT-DOCUMENTATION.md](./PROJECT-DOCUMENTATION.md)**.
+
+This comprehensive documentation covers:
+- Complete project structure
+- All 17 projects and their organization
+- Design system and styling rationale
+- Technical implementation details
+- Issues fixed and lessons learned
+- Image organization and naming conventions
+- Customization guides
+- Maintenance notes
+
+**If you're coming back to this project after time away, or another developer/LLM is taking over, start with PROJECT-DOCUMENTATION.md for full context.**
+
 ## 🚀 Quick Start
 
 ### Prerequisites
