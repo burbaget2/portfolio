@@ -105,6 +105,36 @@ a:hover {
   color: white;
 }
 
+.project-card {
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: var(--background-alt);
+  border: 1px solid var(--border);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px var(--shadow);
+}
+
+.btn-email {
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  color: white;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: inline-block;
+  text-align: center;
+}
+
+.btn-email:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px var(--shadow);
+}
+
 @media (max-width: 768px) {
   .container {
     padding: 0 1.5rem;

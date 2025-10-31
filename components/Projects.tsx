@@ -26,22 +26,7 @@ export default function Projects() {
           {projects.map((project, index) => (
             <div
               key={index}
-              style={{
-                padding: '2rem',
-                borderRadius: '1rem',
-                backgroundColor: 'var(--background-alt)',
-                border: '1px solid var(--border)',
-                transition: 'transform 0.3s ease, box-shadow 0.3s ease',
-                cursor: 'pointer',
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.transform = 'translateY(-5px)'
-                e.currentTarget.style.boxShadow = '0 10px 30px var(--shadow)'
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.transform = 'translateY(0)'
-                e.currentTarget.style.boxShadow = 'none'
-              }}
+              className="project-card"
             >
               <h3 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>{project.title}</h3>
               <p style={{ color: 'var(--text-light)', marginBottom: '1.5rem', lineHeight: 1.6 }}>
