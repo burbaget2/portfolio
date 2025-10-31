@@ -24,9 +24,6 @@ export default function ProjectImage({ src, alt, description }: ProjectImageProp
             height: 'auto',
             display: 'block',
           }}
-          onError={(e) => {
-            e.currentTarget.style.display = 'none'
-          }}
         />
       </div>
       {description && (

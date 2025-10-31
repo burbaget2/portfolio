@@ -29,10 +29,6 @@ export default function Projects() {
                       height: '100%',
                       objectFit: 'cover',
                     }}
-                    onError={(e) => {
-                      // Fallback to placeholder if image doesn't exist
-                      e.currentTarget.style.display = 'none'
-                    }}
                   />
                 </div>
               )}

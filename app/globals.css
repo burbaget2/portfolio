@@ -195,6 +195,39 @@ a:hover {
   cursor: pointer;
 }
 
+/* Navigation Logo with Photo */
+nav a[href="#home"] {
+  transition: opacity 0.2s ease;
+}
+
+nav a[href="#home"]:hover {
+  opacity: 0.8;
+}
+
+nav a[href="#home"] img {
+  transition: transform 0.2s ease;
+}
+
+nav a[href="#home"]:hover img {
+  transform: scale(1.05);
+}
+
+/* Handle broken images gracefully */
+img {
+  font-size: 0;
+}
+
+img::after {
+  content: '';
+  display: none;
+}
+
+/* Hide broken images - they'll show as empty space rather than broken icon */
+img[src=""],
+img:not([src]) {
+  opacity: 0;
+}
+
 .project-thumbnail {
   text-decoration: none;
   color: inherit;

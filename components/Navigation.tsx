@@ -27,8 +27,30 @@ export default function Navigation() {
       }}
     >
       <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-        <a href="#home" style={{ fontSize: '1.5rem', fontWeight: 700, color: 'var(--text)' }}>
-          Portfolio
+        <a 
+          href="#home" 
+          style={{ 
+            display: 'flex', 
+            alignItems: 'center', 
+            gap: '1rem', 
+            textDecoration: 'none',
+            color: 'var(--text)',
+          }}
+        >
+          <img 
+            src="/images/tony-photo.png" 
+            alt="Tony Burbage"
+            style={{
+              width: '50px',
+              height: '50px',
+              borderRadius: '50%',
+              objectFit: 'cover',
+              border: '2px solid var(--border)',
+            }}
+          />
+          <span style={{ fontSize: '1.5rem', fontWeight: 700 }}>
+            Tony's Portfolio
+          </span>
         </a>
         <div style={{ display: 'flex', gap: '2rem' }}>
           <a href="#about" style={{ color: 'var(--text)' }}>About</a>
