@@ -176,6 +176,80 @@ a:hover {
   margin-top: 3rem;
 }
 
+/* Staggered Thumbnail Grid - OROYA Style */
+.thumbnail-grid-staggered {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 3rem;
+  grid-auto-rows: 10px;
+}
+
+.project-thumbnail {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  background-color: var(--background);
+  box-shadow: 0 2px 10px var(--shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.project-thumbnail {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-thumbnail:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px var(--shadow);
+}
+
+.project-thumbnail img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.project-thumbnail-content {
+  padding: 1.5rem;
+  background-color: var(--background);
+}
+
+.project-thumbnail-title {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text);
+  margin-bottom: 0.5rem;
+}
+
+.project-thumbnail-description {
+  font-size: 0.875rem;
+  color: var(--text-light);
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+/* Staggered effect - vary grid row spans */
+.project-thumbnail:nth-child(2n) {
+  grid-row-end: span 26;
+}
+
+.project-thumbnail:nth-child(3n) {
+  grid-row-end: span 28;
+}
+
+.project-thumbnail:nth-child(5n) {
+  grid-row-end: span 24;
+}
+
+.project-thumbnail:first-child {
+  grid-row-end: span 30;
+}
+
 /* All Caps Text */
 .all-caps {
   text-transform: uppercase;
@@ -261,6 +335,18 @@ nav:not(.nav-scrolled) {
   .card-grid-oroya {
     grid-template-columns: 1fr;
     gap: 1.5rem;
+  }
+
+  .thumbnail-grid-staggered {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .project-thumbnail:nth-child(2n),
+  .project-thumbnail:nth-child(3n),
+  .project-thumbnail:nth-child(5n),
+  .project-thumbnail:first-child {
+    grid-row-end: auto;
   }
 }
 
