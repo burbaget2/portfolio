@@ -11,14 +11,27 @@ export default function About() {
       setScrollY(window.scrollY)
     }
     
-    window.addEventListener('scroll', handleScroll)
-    return () => window.removeEventListener('scroll', handleScroll)
+    // Use requestAnimationFrame for smoother updates
+    let ticking = false
+    const optimizedScroll = () => {
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          handleScroll()
+          ticking = false
+        })
+        ticking = true
+      }
+    }
+    
+    window.addEventListener('scroll', optimizedScroll, { passive: true })
+    return () => window.removeEventListener('scroll', optimizedScroll)
   }, [])
 
-  // Create morphing wave path based on scroll position
-  const morphFactor = Math.sin(scrollY * 0.005) * 40
-  const morphFactor2 = Math.cos(scrollY * 0.008) * 25
-  const wavePath = `M0,${175 + morphFactor} C${150 + morphFactor2},${310 + morphFactor} ${300 - morphFactor2},${40 - morphFactor} ${450 + morphFactor2},${175 + morphFactor} C${600 - morphFactor2},${310 + morphFactor} ${750 + morphFactor2},${40 - morphFactor} ${900 - morphFactor2},${175 + morphFactor} C${1050 + morphFactor2},${310 + morphFactor} ${1200 - morphFactor2},${40 - morphFactor} ${1200 - morphFactor2},${40 - morphFactor} L1200,350 L0,350 Z`
+  // Create morphing wave path based on scroll position - made more pronounced
+  const morphFactor = Math.sin(scrollY * 0.01) * 60
+  const morphFactor2 = Math.cos(scrollY * 0.015) * 50
+  const morphFactor3 = Math.sin(scrollY * 0.008) * 30
+  const wavePath = `M0,${175 + morphFactor} C${150 + morphFactor2},${310 + morphFactor + morphFactor3} ${300 - morphFactor2},${40 - morphFactor + morphFactor3} ${450 + morphFactor2},${175 + morphFactor} C${600 - morphFactor2},${310 + morphFactor - morphFactor3} ${750 + morphFactor2},${40 - morphFactor - morphFactor3} ${900 - morphFactor2},${175 + morphFactor} C${1050 + morphFactor2},${310 + morphFactor + morphFactor3} ${1200 - morphFactor2},${40 - morphFactor + morphFactor3} ${1200 - morphFactor2},${40 - morphFactor + morphFactor3} L1200,350 L0,350 Z`
   return (
     <section id="about" ref={sectionRef} className="section-oroya hero-about-flow" style={{ position: 'relative' }}>
       <div className="container" style={{ position: 'relative', zIndex: 1 }}>
@@ -54,7 +67,7 @@ export default function About() {
         }}
       >
         <svg viewBox="0 0 1200 350" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-          <path d={wavePath} fill="var(--background)" style={{ transition: 'd 0.3s ease-out' }}/>
+          <path d={wavePath} fill="var(--background)"/>
         </svg>
       </div>
     </section>
