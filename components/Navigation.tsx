@@ -15,6 +15,7 @@ export default function Navigation() {
 
   return (
     <nav
+      className={isScrolled ? 'nav-scrolled' : ''}
       style={{
         position: 'fixed',
         top: 0,
@@ -22,10 +23,7 @@ export default function Navigation() {
         right: 0,
         zIndex: 1000,
         padding: '1rem 0',
-        backgroundColor: isScrolled ? 'var(--background)' : 'transparent',
-        backdropFilter: isScrolled ? 'blur(10px)' : 'none',
         transition: 'all 0.3s ease',
-        boxShadow: isScrolled ? '0 2px 20px var(--shadow)' : 'none',
       }}
     >
       <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>

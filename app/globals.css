@@ -9,6 +9,7 @@
   --primary-dark: #333333;
   --secondary: #666666;
   --background: #ffffff;
+  --background-rgb: 255, 255, 255;
   --background-alt: #f8f8f8;
   --text: #000000;
   --text-light: #666666;
@@ -22,6 +23,7 @@
     --primary-dark: #cccccc;
     --secondary: #999999;
     --background: #1a1a1a;
+    --background-rgb: 26, 26, 26;
     --background-alt: #2a2a2a;
     --text: #f0f0f0;
     --text-light: #b0b0b0;
@@ -204,6 +206,29 @@ a:hover {
   line-height: 1.1;
   margin-bottom: 1.5rem;
   letter-spacing: -0.02em;
+}
+
+/* Frosted Glass Navigation */
+.nav-scrolled {
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  box-shadow: 0 2px 20px var(--shadow);
+  border-bottom: 1px solid var(--border);
+}
+
+@media (prefers-color-scheme: dark) {
+  .nav-scrolled {
+    background-color: rgba(26, 26, 26, 0.85);
+  }
+}
+
+nav:not(.nav-scrolled) {
+  background-color: transparent;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  box-shadow: none;
+  border-bottom: none;
 }
 
 @media (max-width: 768px) {
