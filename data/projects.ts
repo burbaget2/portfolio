@@ -34,16 +34,10 @@ export const projects: Project[] = [
     client: 'Plotly Studio',
     role: 'UX Designer',
     category: ['AI/ML', 'Data Visualization', 'Product Design'],
-    description: 'AI-powered data visualization platform where users can create beautiful dashboards by uploading data and describing their visualization needs in natural language.',
-    longDescription: `Plotly Studio is an innovative AI-powered data visualization platform. Users can create AI-generated visualizations by uploading their data and setting context using their preferred language. The app can be themed, charts edited, and dashboards published and shared.
+    description: "Plotly Studio is Plotly's new flagship AI platform built to help teams explore data, produce dashboards, and generate production-ready applications faster than ever.",
+    longDescription: `Plotly Studio is Plotly's new flagship AI platform built to help teams explore data, produce dashboards, and generate production-ready applications faster than ever. I helped lead the end-to-end design for core Studio experiences, bridging product, UX, and engineering to deliver an AI-first workflow grounded in real user needs.
 
-The platform allows users to:
-- Upload data in various formats
-- Describe visualization needs in natural language
-- Generate beautiful dashboards driven by AI
-- Customize and theme the visualizations
-- Edit charts and add new visualizations
-- Publish and share dashboards`,
+My focus was on transforming design into working, testable product — not static artifacts. Using tools like Claude Code and Cursor, I vibe-coded complete flows directly into the Studio codebase. This enabled rapid iteration with users and collapsed delivery timelines from months to days.`,
     thumbnail: '/images/projects/plotlystudio/image-2.png',
     images: [
       {
@@ -69,10 +63,12 @@ The platform allows users to:
     ],
     tags: ['AI/ML', 'Data Visualization', 'Product Design', 'Natural Language Processing'],
     achievements: [
-      'AI-powered dashboard generation',
-      'Natural language interface',
-      'Customizable themes and charts',
-      'Publish and share functionality'
+      'Led end-to-end design for core Studio experiences',
+      'Bridged product, UX, and engineering teams',
+      'Delivered AI-first workflow grounded in real user needs',
+      'Vibe-coded complete flows directly into codebase',
+      'Collapsed delivery timelines from months to days',
+      'Enabled rapid iteration with users'
     ]
   },
   {
@@ -451,16 +447,49 @@ I worked with the copywriters on holiday campaigns, and also banner ads that wou
     slug: 'best-buy-ux-strategy',
     title: 'Best Buy - UX Strategy that Transformed bestbuy.ca',
     client: 'Best Buy Canada',
-    role: 'UX Strategist',
+    role: 'Senior UX Designer',
     category: ['E-commerce', 'UX Strategy', 'Transformation'],
     description: 'UX Strategy that Transformed bestbuy.ca to its Current Robust Platform. Led strategic UX initiatives that fundamentally transformed the e-commerce experience for Best Buy Canada.',
-    thumbnail: '/images/projects/best-buy-vision/image-6.png', // Example.png
-    images: [],
+    longDescription: `Upon joining, I assumed a lead and mentorship role for the UX design team. The biggest challenge was putting together a UX that would drive the next generation platform that Best Buy would use to deliver content, products information, and sales. This endeavour aimed to identify and design all the necessary components required to operate bestbuy.ca and establish processes for their management and deployment, facilitating the organization's content delivery for products and purchases. The project represented a significant initiative by Best Buy to transition its aging website to a new Content Driven platform.
+
+My approach began with extensive conversations across the organization to ascertain the essential content elements required for the site at a foundational level. Subsequently, I developed wireframes and interaction design patterns covering a wide array of basic use cases, including product launches, events, and the range of products and services offered by Best Buy. By adopting a component-driven strategy and leveraging a content management system, I created multiple design components adaptable to various configurations on different types of pages.
+
+This system now serves as the backbone of the current Best Buy site, with the company continuously utilizing and refining these components to provide comprehensive product and service information to millions of Canadians.`,
+    thumbnail: '/images/projects/bestbuy-strategy/image-6.png',
+    images: [
+      {
+        src: '/images/projects/bestbuy-strategy/image-5.png',
+        alt: 'Best Buy Strategy Screenshot',
+        description: 'UX Strategy work for Best Buy'
+      },
+      {
+        src: '/images/projects/bestbuy-strategy/image-6.png',
+        alt: 'Best Buy Strategy Screenshot',
+        description: 'UX Strategy transformation'
+      },
+      {
+        src: '/images/projects/bestbuy-strategy/image-7.png',
+        alt: 'Best Buy Strategy Screenshot',
+        description: 'Strategic UX initiatives'
+      },
+      {
+        src: '/images/projects/bestbuy-strategy/image-8.png',
+        alt: 'Best Buy Strategy Screenshot',
+        description: 'E-commerce experience redesign'
+      },
+      {
+        src: '/images/projects/bestbuy-strategy/image-31.png',
+        alt: 'Best Buy Strategy',
+        description: 'Best Buy UX Strategy work'
+      },
+    ],
     tags: ['UX Strategy', 'E-commerce', 'Transformation', 'Platform Design'],
     achievements: [
       'Transformed bestbuy.ca to current robust platform',
-      'Strategic UX initiatives',
-      'Fundamental e-commerce experience redesign'
+      'Lead and mentorship role for UX design team',
+      'Component-driven strategy with CMS',
+      'Created backbone system still in use today',
+      'Designed for millions of Canadian users'
     ]
   },
   {
@@ -471,13 +500,26 @@ I worked with the copywriters on holiday campaigns, and also banner ads that wou
     role: 'UX Strategist',
     category: ['UX Strategy', 'Team Alignment', 'User Journey'],
     description: 'Created high-level user journey conceptual blueprint to connect teams with a united vision. Aligned cross-functional teams around shared user experience principles.',
-    thumbnail: '/images/projects/best-buy-vision/image-29.png', // user journey.png
-    images: [],
+    longDescription: `As part of the Best Buy transformation initiative, I created a high-level user journey conceptual blueprint that served as a foundational artifact to connect cross-functional teams with a united vision. This blueprint was essential for aligning product, engineering, marketing, and design teams around shared user experience principles and a common understanding of customer journeys.
+
+The conceptual blueprint mapped out key customer touchpoints and experiences across the entire bestbuy.ca ecosystem, from discovery through purchase and post-purchase support. By creating this visual and strategic document, I enabled teams to see how their individual work connected to the larger customer experience, fostering better collaboration and decision-making.
+
+This artifact became a critical reference point for strategic planning, helping teams prioritize features and initiatives based on their impact on the overall user journey rather than in isolation. The blueprint ensured that all teams were working toward the same customer experience goals, reducing friction and misalignment across the organization.`,
+    thumbnail: '/images/projects/best-buy-vision/image-32.png',
+    images: [
+      {
+        src: '/images/projects/best-buy-vision/image-32.png',
+        alt: 'User Journey',
+        description: 'User journey mapping artifact'
+      },
+    ],
     tags: ['UX Strategy', 'Team Alignment', 'User Journey', 'Blueprint Design'],
     achievements: [
       'High-level user journey conceptual blueprint',
       'Connected teams with united vision',
-      'Cross-functional alignment'
+      'Cross-functional alignment',
+      'Strategic artifact for organizational planning',
+      'Enabled better prioritization and collaboration'
     ]
   },
   {
@@ -656,6 +698,34 @@ I worked with the copywriters on holiday campaigns, and also banner ads that wou
       'Marketing website designs',
       'Apparel catalog systems',
       'Engaging product presentation'
+    ]
+  },
+  {
+    id: 'ignite-works',
+    slug: 'ignite-works-digital-services',
+    title: 'Ignite Works Digital Services - Co-Founder',
+    client: 'Ignite Works Digital Services',
+    role: 'Co-Founder',
+    category: ['Consulting', 'Service Design', 'Product Strategy'],
+    description: 'Co-founder of a consulting company providing on-demand contracting services for Service Design, Product Strategy, and Development. We specialize in crafting product visions and designing/building digital experiences for ambitious innovators.',
+    longDescription: `Co-founder of a consulting company providing on-demand contracting services for Service Design, Product Strategy, and Development. We specialize in crafting product visions and designing/building digital experiences for ambitious innovators.
+
+We conducted a number of discovery sessions with clients and helped them craft their product visions. Ultimately, the incoming revenue did not support continuing, but in the short time we were able to help "ignite" product visions for three clients.`,
+    thumbnail: '/images/projects/ignite-works/image-5.png',
+    images: [
+      {
+        src: '/images/projects/ignite-works/image-5.png',
+        alt: 'Ignite Works Home',
+        description: 'Ignite Works Digital Services homepage'
+      },
+    ],
+    tags: ['Service Design', 'Product Strategy', 'Consulting', 'Business Development'],
+    achievements: [
+      'Co-founded consulting company',
+      'Conducted discovery sessions with clients',
+      'Helped craft product visions',
+      'Designed and built digital experiences',
+      'Successfully helped three clients ignite their product visions'
     ]
   },
 ]

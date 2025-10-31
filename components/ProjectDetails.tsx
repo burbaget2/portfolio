@@ -10,7 +10,7 @@ export default function ProjectDetails({ project }: ProjectDetailsProps) {
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '3rem' }}>
         {project.achievements && project.achievements.length > 0 && (
           <div>
-            <h3 className="all-caps" style={{ fontSize: '1rem', marginBottom: '1rem', color: 'var(--text-light)' }}>
+            <h3 className="all-caps" style={{ fontSize: '1rem', marginBottom: '1rem', color: 'var(--text)' }}>
               Key Achievements
             </h3>
             <ul style={{ listStyle: 'none', padding: 0 }}>
@@ -37,9 +37,9 @@ export default function ProjectDetails({ project }: ProjectDetailsProps) {
         )}
 
         <div>
-          <h3 className="all-caps" style={{ fontSize: '1rem', marginBottom: '1rem', color: 'var(--text-light)' }}>
-            Technologies & Skills
-          </h3>
+            <h3 className="all-caps" style={{ fontSize: '1rem', marginBottom: '1rem', color: 'var(--text)' }}>
+              Technologies & Skills
+            </h3>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
             {project.tags.map((tag, index) => (
               <span
@@ -61,7 +61,7 @@ export default function ProjectDetails({ project }: ProjectDetailsProps) {
 
         {project.externalLinks && project.externalLinks.length > 0 && (
           <div>
-            <h3 className="all-caps" style={{ fontSize: '1rem', marginBottom: '1rem', color: 'var(--text-light)' }}>
+            <h3 className="all-caps" style={{ fontSize: '1rem', marginBottom: '1rem', color: 'var(--text)' }}>
               External Links
             </h3>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>

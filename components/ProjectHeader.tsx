@@ -7,11 +7,6 @@ interface ProjectHeaderProps {
 export default function ProjectHeader({ project }: ProjectHeaderProps) {
   return (
     <header style={{ marginBottom: '4rem' }}>
-      {project.client && (
-        <div className="section-header-oroya" style={{ marginBottom: '0.5rem' }}>
-          {project.client}
-        </div>
-      )}
       <h1 className="section-brand-name" style={{ marginBottom: '1rem' }}>
         {project.title}
       </h1>
@@ -21,7 +16,7 @@ export default function ProjectHeader({ project }: ProjectHeaderProps) {
           gap: '2rem', 
           flexWrap: 'wrap',
           marginBottom: '2rem',
-          color: 'var(--text-light)',
+          color: 'var(--text)',
           fontSize: '1rem',
         }}>
           {project.role && <span>{project.role}</span>}
@@ -36,7 +31,7 @@ export default function ProjectHeader({ project }: ProjectHeaderProps) {
       <p style={{ 
         fontSize: '1.25rem', 
         lineHeight: 1.8, 
-        color: 'var(--text-light)',
+        color: 'var(--text)',
         maxWidth: '800px',
       }}>
         {project.description}

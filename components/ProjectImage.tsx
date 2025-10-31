@@ -28,7 +28,7 @@ export default function ProjectImage({ src, alt, description }: ProjectImageProp
       </div>
       {description && (
         <figcaption style={{ 
-          color: 'var(--text-light)', 
+          color: 'var(--text)', 
           fontSize: '0.875rem', 
           fontStyle: 'italic',
           textAlign: 'center',
