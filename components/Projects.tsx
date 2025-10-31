@@ -18,17 +18,24 @@ export default function Projects() {
   ]
 
   return (
-    <section id="projects" className="section">
+    <section id="projects" className="section-oroya">
       <div className="container">
-        <h2 className="section-title">Featured Projects</h2>
-        <p className="section-subtitle">A selection of my recent work</p>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem' }}>
+        <div className="quote-oroya">
+          "On ne va pas tourner autour du pot."
+        </div>
+        
+        <div className="section-header-oroya">NOS RÉALISATIONS</div>
+        <h2 className="section-brand-name">FEATURED PROJECTS</h2>
+        
+        <div className="card-grid-oroya">
           {projects.map((project, index) => (
             <div
               key={index}
               className="project-card"
             >
-              <h3 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>{project.title}</h3>
+              <h3 className="all-caps" style={{ fontSize: '1.25rem', marginBottom: '1rem', color: 'var(--text)' }}>
+                {project.title}
+              </h3>
               <p style={{ color: 'var(--text-light)', marginBottom: '1.5rem', lineHeight: 1.6 }}>
                 {project.description}
               </p>
@@ -38,10 +45,11 @@ export default function Projects() {
                     key={tagIndex}
                     style={{
                       padding: '0.25rem 0.75rem',
-                      backgroundColor: 'var(--primary)',
-                      color: 'white',
+                      backgroundColor: 'var(--background-alt)',
+                      color: 'var(--text)',
                       borderRadius: '1rem',
                       fontSize: '0.875rem',
+                      fontWeight: 500,
                     }}
                   >
                     {tag}

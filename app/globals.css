@@ -58,7 +58,37 @@ a:hover {
 }
 
 .section {
-  padding: 5rem 0;
+  padding: 6rem 0;
+}
+
+.section-oroya {
+  padding: 6rem 0;
+  position: relative;
+}
+
+.section-oroya:nth-child(even) {
+  background-color: var(--background-alt);
+}
+
+/* OROYA Typography Pattern - Two-line headers */
+.section-header-oroya {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  color: var(--text-light);
+}
+
+.section-brand-name {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .section-title {
@@ -75,6 +105,24 @@ a:hover {
   font-size: 1.25rem;
   color: var(--text-light);
   margin-bottom: 3rem;
+  font-style: italic;
+}
+
+/* Quote Style - OROYA Pattern */
+.quote-oroya {
+  font-style: italic;
+  font-size: 1.125rem;
+  color: var(--text-light);
+  margin: 2rem 0 3rem 0;
+  padding-left: 1rem;
+  border-left: 3px solid var(--primary);
+}
+
+.quote-attribution {
+  font-size: 0.875rem;
+  color: var(--text-light);
+  margin-top: 0.5rem;
+  font-style: normal;
 }
 
 .btn {
@@ -105,18 +153,34 @@ a:hover {
   color: white;
 }
 
+/* OROYA Card Styles */
 .project-card {
-  padding: 2rem;
-  border-radius: 1rem;
-  background-color: var(--background-alt);
+  padding: 2.5rem 2rem;
+  border-radius: 0.5rem;
+  background-color: white;
   border: 1px solid var(--border);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
 }
 
 .project-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 30px var(--shadow);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card-grid-oroya {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+/* All Caps Text */
+.all-caps {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 700;
 }
 
 .btn-email {
@@ -135,21 +199,45 @@ a:hover {
   box-shadow: 0 10px 25px var(--shadow);
 }
 
+/* Hero Typography - OROYA Style */
+.hero-title-oroya {
+  font-size: clamp(2.5rem, 8vw, 5rem);
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.02em;
+}
+
 @media (max-width: 768px) {
   .container {
     padding: 0 1.5rem;
   }
 
-  .section {
-    padding: 3rem 0;
+  .section,
+  .section-oroya {
+    padding: 4rem 0;
   }
 
-  .section-title {
+  .section-title,
+  .section-brand-name {
     font-size: 2rem;
+  }
+
+  .section-header-oroya {
+    font-size: 1rem;
   }
 
   .section-subtitle {
     font-size: 1rem;
+  }
+
+  .hero-title-oroya {
+    font-size: 2.5rem;
+  }
+
+  .card-grid-oroya {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
 }
 

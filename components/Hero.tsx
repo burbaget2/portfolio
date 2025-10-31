@@ -13,10 +13,10 @@ export default function Hero() {
       }}
     >
       <div className="container" style={{ textAlign: 'center' }}>
-        <h1 style={{ fontSize: '4rem', fontWeight: 700, marginBottom: '1rem', lineHeight: 1.2 }}>
-          Hi, I'm a UX Designer
+        <h1 className="hero-title-oroya" style={{ color: 'white' }}>
+          UX Designer & Creative
         </h1>
-        <p style={{ fontSize: '1.5rem', marginBottom: '2rem', opacity: 0.9 }}>
+        <p style={{ fontSize: '1.5rem', marginBottom: '3rem', opacity: 0.95, fontWeight: 300 }}>
           Creating beautiful and intuitive user experiences
         </p>
         <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
