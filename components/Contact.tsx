@@ -2,11 +2,10 @@ export default function Contact() {
   return (
     <section id="contact" className="section-oroya">
       <div className="container" style={{ textAlign: 'center', maxWidth: '700px' }}>
-        <div className="section-header-oroya">PRENONS RENDEZ-VOUS</div>
         <h2 className="section-brand-name">LET'S WORK TOGETHER</h2>
         
         <p className="section-subtitle" style={{ marginTop: '1rem', marginBottom: '2rem' }}>
-          Si vous avez scrollé jusque là, c'est que vous êtes intéressé.
+          I'd love to hear from you. Let's create something amazing together.
         </p>
         
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', marginBottom: '2rem' }}>

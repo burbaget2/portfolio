@@ -5,11 +5,6 @@ export default function Projects() {
   return (
     <section id="projects" className="section-oroya">
       <div className="container">
-        <div className="quote-oroya">
-          "On ne va pas tourner autour du pot."
-        </div>
-        
-        <div className="section-header-oroya">NOS RÉALISATIONS</div>
         <h2 className="section-brand-name">FEATURED PROJECTS</h2>
         
         <div className="thumbnail-grid-staggered">
