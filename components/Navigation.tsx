@@ -22,20 +22,20 @@ export default function Navigation() {
         right: 0,
         zIndex: 1000,
         padding: '1rem 0',
-        backgroundColor: isScrolled ? 'rgba(255, 255, 255, 0.95)' : 'transparent',
+        backgroundColor: isScrolled ? 'var(--background)' : 'transparent',
         backdropFilter: isScrolled ? 'blur(10px)' : 'none',
         transition: 'all 0.3s ease',
-        boxShadow: isScrolled ? '0 2px 20px rgba(0, 0, 0, 0.1)' : 'none',
+        boxShadow: isScrolled ? '0 2px 20px var(--shadow)' : 'none',
       }}
     >
       <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-        <a href="#home" style={{ fontSize: '1.5rem', fontWeight: 700 }}>
+        <a href="#home" style={{ fontSize: '1.5rem', fontWeight: 700, color: 'var(--text)' }}>
           Portfolio
         </a>
         <div style={{ display: 'flex', gap: '2rem' }}>
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
+          <a href="#about" style={{ color: 'var(--text)' }}>About</a>
+          <a href="#projects" style={{ color: 'var(--text)' }}>Projects</a>
+          <a href="#contact" style={{ color: 'var(--text)' }}>Contact</a>
         </div>
       </div>
     </nav>
