@@ -15,33 +15,33 @@ export default function Contact() {
           {/* Left side - Contact Info */}
           <div>
             <h1 style={{ 
-              fontSize: '3rem', 
-              fontWeight: 700, 
-              marginBottom: '2rem',
-              lineHeight: 1.2
+              fontSize: 'var(--font-size-4xl)', 
+              fontWeight: 'var(--font-bold)', 
+              marginBottom: 'var(--space-8)',
+              lineHeight: 'var(--leading-tight)'
             }}>
               Tony Burbage
             </h1>
             
             <h3 style={{ 
-              fontSize: '1.5rem', 
-              fontWeight: 600, 
-              marginBottom: '2rem' 
+              fontSize: 'var(--font-size-xl)', 
+              fontWeight: 'var(--font-semibold)', 
+              marginBottom: 'var(--space-8)' 
             }}>
               Senior UX Designer
             </h3>
             
-            <div style={{ marginBottom: '2rem' }}>
+            <div style={{ marginBottom: 'var(--space-8)' }}>
               <a 
                 href="mailto:burbaget@me.com"
                 style={{ 
-                  fontSize: '1.125rem',
+                  fontSize: 'var(--font-size-md)',
                   color: 'var(--accent-warm-dark)',
                   textDecoration: 'none',
-                  fontWeight: 500,
+                  fontWeight: 'var(--font-medium)',
                   display: 'flex',
                   alignItems: 'center',
-                  gap: '0.5rem'
+                  gap: 'var(--space-2)'
                 }}
               >
                 <svg 
@@ -62,19 +62,19 @@ export default function Contact() {
               </a>
             </div>
             
-            <div style={{ marginBottom: '2rem' }}>
+            <div style={{ marginBottom: 'var(--space-8)' }}>
               <a 
                 href="https://www.linkedin.com/in/tony-burbage/"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ 
-                  fontSize: '1.125rem',
+                  fontSize: 'var(--font-size-md)',
                   color: 'var(--accent-warm-dark)',
                   textDecoration: 'none',
-                  fontWeight: 500,
+                  fontWeight: 'var(--font-medium)',
                   display: 'flex',
                   alignItems: 'center',
-                  gap: '0.5rem'
+                  gap: 'var(--space-2)'
                 }}
               >
                 <svg 
@@ -92,13 +92,13 @@ export default function Contact() {
             
             <div>
               <h4 style={{ 
-                fontSize: '1.125rem', 
-                fontWeight: 700, 
-                marginBottom: '0.5rem' 
+                fontSize: 'var(--font-size-md)', 
+                fontWeight: 'var(--font-bold)', 
+                marginBottom: 'var(--space-2)' 
               }}>
                 Open To:
               </h4>
-              <p style={{ fontSize: '1.125rem' }}>Hybrid Remote or Office</p>
+              <p style={{ fontSize: 'var(--font-size-md)' }}>Hybrid Remote or Office</p>
             </div>
           </div>
           

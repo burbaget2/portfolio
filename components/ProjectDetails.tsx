@@ -10,7 +10,7 @@ export default function ProjectDetails({ project }: ProjectDetailsProps) {
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '3rem' }}>
         {project.achievements && project.achievements.length > 0 && (
           <div>
-            <h3 className="all-caps" style={{ fontSize: '1rem', marginBottom: '1rem', color: 'var(--text)' }}>
+            <h3 className="all-caps" style={{ fontSize: 'var(--font-size-base)', marginBottom: 'var(--space-4)', color: 'var(--text)' }}>
               Key Achievements
             </h3>
             <ul style={{ listStyle: 'none', padding: 0 }}>
@@ -37,7 +37,7 @@ export default function ProjectDetails({ project }: ProjectDetailsProps) {
         )}
 
         <div>
-            <h3 className="all-caps" style={{ fontSize: '1rem', marginBottom: '1rem', color: 'var(--text)' }}>
+            <h3 className="all-caps" style={{ fontSize: 'var(--font-size-base)', marginBottom: 'var(--space-4)', color: 'var(--text)' }}>
               Technologies & Skills
             </h3>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
@@ -49,7 +49,7 @@ export default function ProjectDetails({ project }: ProjectDetailsProps) {
                   backgroundColor: 'var(--background-alt)',
                   color: 'var(--text)',
                   borderRadius: '1rem',
-                  fontSize: '0.875rem',
+                  fontSize: 'var(--font-size-sm)',
                   fontWeight: 500,
                 }}
               >
@@ -61,7 +61,7 @@ export default function ProjectDetails({ project }: ProjectDetailsProps) {
 
         {project.externalLinks && project.externalLinks.length > 0 && (
           <div>
-            <h3 className="all-caps" style={{ fontSize: '1rem', marginBottom: '1rem', color: 'var(--text)' }}>
+            <h3 className="all-caps" style={{ fontSize: 'var(--font-size-base)', marginBottom: 'var(--space-4)', color: 'var(--text)' }}>
               External Links
             </h3>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
@@ -74,7 +74,7 @@ export default function ProjectDetails({ project }: ProjectDetailsProps) {
                   style={{
                     color: 'var(--primary)',
                     textDecoration: 'underline',
-                    fontSize: '0.875rem',
+                    fontSize: 'var(--font-size-sm)',
                   }}
                 >
                   {link.label} →

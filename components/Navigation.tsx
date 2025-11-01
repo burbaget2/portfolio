@@ -33,7 +33,7 @@ export default function Navigation() {
     >
       <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <a 
-          href="/" 
+          href="/#home" 
           style={{ 
             display: 'flex', 
             alignItems: 'center', 
@@ -60,9 +60,9 @@ export default function Navigation() {
         
         {/* Desktop Navigation */}
         <div className="desktop-nav" style={{ display: 'flex', gap: '2rem' }}>
-          <a href="/#about" style={{ color: 'var(--accent-warm-dark)', fontWeight: 700 }}>About</a>
-          <a href="/#projects" style={{ color: 'var(--accent-warm-dark)', fontWeight: 700 }}>Projects</a>
-          <a href="/#contact" style={{ color: 'var(--accent-warm-dark)', fontWeight: 700 }}>Contact</a>
+          <a href="/#about" style={{ color: 'var(--accent-warm-dark)', fontWeight: 'var(--font-bold)' }}>About</a>
+          <a href="/#projects" style={{ color: 'var(--accent-warm-dark)', fontWeight: 'var(--font-bold)' }}>Projects</a>
+          <a href="/#contact" style={{ color: 'var(--accent-warm-dark)', fontWeight: 'var(--font-bold)' }}>Contact</a>
         </div>
 
         {/* Mobile Hamburger Button */}
@@ -114,9 +114,9 @@ export default function Navigation() {
             onClick={handleLinkClick}
             style={{ 
               color: 'var(--accent-warm-dark)', 
-              fontWeight: 700,
-              padding: '0.75rem 0',
-              fontSize: '1.125rem'
+              fontWeight: 'var(--font-bold)',
+              padding: 'var(--space-3) 0',
+              fontSize: 'var(--font-size-md)'
             }}
           >
             About
@@ -126,9 +126,9 @@ export default function Navigation() {
             onClick={handleLinkClick}
             style={{ 
               color: 'var(--accent-warm-dark)', 
-              fontWeight: 700,
-              padding: '0.75rem 0',
-              fontSize: '1.125rem'
+              fontWeight: 'var(--font-bold)',
+              padding: 'var(--space-3) 0',
+              fontSize: 'var(--font-size-md)'
             }}
           >
             Projects
@@ -138,9 +138,9 @@ export default function Navigation() {
             onClick={handleLinkClick}
             style={{ 
               color: 'var(--accent-warm-dark)', 
-              fontWeight: 700,
-              padding: '0.75rem 0',
-              fontSize: '1.125rem'
+              fontWeight: 'var(--font-bold)',
+              padding: 'var(--space-3) 0',
+              fontSize: 'var(--font-size-md)'
             }}
           >
             Contact

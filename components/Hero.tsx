@@ -53,7 +53,7 @@ export default function Hero() {
           <h1 className="hero-title-burbs" style={{ color: 'var(--text)' }}>
             Hi! I'm Tony
           </h1>
-          <p style={{ fontSize: '1.5rem', marginBottom: '3rem', color: 'var(--text-light)', fontWeight: 300 }}>
+          <p style={{ fontSize: 'var(--font-size-xl)', marginBottom: 'var(--space-12)', color: 'var(--text-light)', fontWeight: 'var(--font-light)' }}>
             End-to-end UX and service design, and a groundbreaker in AI-based design implementation
           </p>
           <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
@@ -85,7 +85,23 @@ export default function Hero() {
             style={{ display: 'block', width: '100%', height: '100%' }}
           >
             <path d={wavePath} fill="var(--accent-warm)"/>
+            
           </svg>
+          {/* Coffee stain image */}
+          <img 
+            src="/images/coffeeStain.png"
+            alt=""
+            style={{
+              position: 'absolute',
+              bottom: '10px',
+              right: '80px',
+              width: '120px',
+              height: 'auto',
+              opacity: 0.6,
+              pointerEvents: 'none',
+              transform: 'rotate(-15deg)',
+            }}
+          />
         </div>
       </section>
     </>

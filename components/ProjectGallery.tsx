@@ -9,11 +9,11 @@ export default function ProjectGallery({ images }: ProjectGalleryProps) {
   if (!images || images.length === 0) return null
 
   return (
-    <section style={{ marginTop: '4rem' }}>
-      <h2 style={{ marginBottom: '2rem', fontSize: '1.5rem', fontWeight: 700, color: 'var(--text)' }}>
+    <section style={{ marginTop: 'var(--space-16)' }}>
+      <h2 style={{ marginBottom: 'var(--space-8)', fontSize: 'var(--font-size-xl)', fontWeight: 'var(--font-bold)', color: 'var(--text)' }}>
         PROJECT GALLERY
       </h2>
-      <div style={{ display: 'grid', gap: '4rem' }}>
+      <div style={{ display: 'grid', gap: 'var(--space-16)' }}>
         {images.map((image, index) => (
           <ProjectImage
             key={index}

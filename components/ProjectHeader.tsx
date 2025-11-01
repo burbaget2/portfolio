@@ -13,29 +13,29 @@ export default function ProjectHeader({ project }: ProjectHeaderProps) {
       {(project.role || project.year || project.award) && (
         <div style={{ 
           display: 'flex', 
-          gap: '2rem', 
+          gap: 'var(--space-8)', 
           flexWrap: 'wrap',
-          marginBottom: '2rem',
+          marginBottom: 'var(--space-8)',
           color: 'var(--text)',
-          fontSize: '1rem',
+          fontSize: 'var(--font-size-base)',
         }}>
           {project.role && <span>{project.role}</span>}
           {project.year && <span>{project.year}</span>}
           {project.award && (
-            <span style={{ color: 'var(--primary)', fontWeight: 600 }}>
+            <span style={{ color: 'var(--primary)', fontWeight: 'var(--font-semibold)' }}>
               🏆 {project.award}
             </span>
           )}
         </div>
       )}
       <div style={{ 
-        padding: '1.5rem',
+        padding: 'var(--space-6)',
         backgroundColor: 'var(--accent-warm)',
-        borderRadius: '0.5rem',
+        borderRadius: 'var(--radius-md)',
       }}>
         <p style={{ 
-          fontSize: '1.25rem', 
-          lineHeight: 1.8, 
+          fontSize: 'var(--font-size-lg)', 
+          lineHeight: 'var(--leading-relaxed)', 
           color: 'var(--text)',
           marginBottom: 0,
         }}>
