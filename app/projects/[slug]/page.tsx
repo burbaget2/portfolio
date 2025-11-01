@@ -30,9 +30,10 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
               style={{
                 display: 'inline-block',
                 marginBottom: '3rem',
-                color: 'var(--text-light)',
+                color: 'var(--accent-warm-dark)',
                 textDecoration: 'none',
-                fontSize: '0.875rem',
+                fontSize: '1rem',
+                fontWeight: 700,
               }}
             >
               ← Back to Projects
@@ -46,9 +47,52 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
                   fontSize: '1.125rem',
                   lineHeight: 1.8,
                   color: 'var(--text)',
-                  whiteSpace: 'pre-line',
                 }}>
-                  {project.longDescription}
+                  {project.longDescription.split('\n\n').map((paragraph, index) => {
+                    const trimmed = paragraph.trim();
+                    // Check if paragraph is a markdown link [text](url)
+                    const markdownLinkMatch = trimmed.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+                    if (markdownLinkMatch) {
+                      return (
+                        <p key={index} style={{ marginBottom: '1.5rem' }}>
+                          <a href={markdownLinkMatch[2]} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--primary)', textDecoration: 'underline' }}>
+                            {markdownLinkMatch[1]}
+                          </a>
+                        </p>
+                      );
+                    }
+                    // Check if paragraph starts with bold text like **Header:** and rest is regular text
+                    const boldHeaderMatch = trimmed.match(/^\*\*([^*]+):\*\*\s*(.*)$/);
+                    if (boldHeaderMatch) {
+                      return (
+                        <div key={index} style={{ 
+                          marginBottom: '1.5rem', 
+                          padding: '1.5rem',
+                          backgroundColor: 'var(--accent-warm)',
+                          borderRadius: '0.5rem',
+                        }}>
+                          <h3 style={{ 
+                            fontSize: '1.25rem',
+                            fontWeight: 700,
+                            marginBottom: '0.5rem',
+                            color: 'var(--text)',
+                          }}>
+                            {boldHeaderMatch[1]}
+                          </h3>
+                          {boldHeaderMatch[2] && (
+                            <p style={{ marginBottom: 0, color: 'var(--text)' }}>
+                              {boldHeaderMatch[2]}
+                            </p>
+                          )}
+                        </div>
+                      );
+                    }
+                    return (
+                      <p key={index} style={{ marginBottom: '1.5rem' }}>
+                        {trimmed}
+                      </p>
+                    );
+                  })}
                 </div>
               </section>
             )}

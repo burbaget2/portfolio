@@ -17,6 +17,7 @@
   --shadow: rgba(0, 0, 0, 0.08);
   --accent-warm: #f5ebe6;
   --accent-warm-rgb: 245, 235, 230;
+  --accent-warm-dark: #8b7769;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -33,6 +34,7 @@
     --shadow: rgba(0, 0, 0, 0.3);
     --accent-warm: #2a241f;
     --accent-warm-rgb: 42, 36, 31;
+    --accent-warm-dark: #a8977f;
   }
 }
 

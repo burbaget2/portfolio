@@ -2,7 +2,6 @@ export default function About() {
   return (
     <section id="about" className="section-oroya about-section">
       <div className="container">
-        <div className="section-header-oroya">About</div>
         <h2 className="section-brand-name">About Me</h2>
         
         <div style={{ maxWidth: '800px', fontSize: '1.125rem', lineHeight: 1.8, marginTop: '2rem' }}>

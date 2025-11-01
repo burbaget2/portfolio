@@ -6,7 +6,7 @@ interface ProjectHeaderProps {
 
 export default function ProjectHeader({ project }: ProjectHeaderProps) {
   return (
-    <header style={{ marginBottom: '4rem' }}>
+    <header>
       <h1 className="section-brand-name" style={{ marginBottom: '1rem' }}>
         {project.title}
       </h1>
@@ -28,14 +28,20 @@ export default function ProjectHeader({ project }: ProjectHeaderProps) {
           )}
         </div>
       )}
-      <p style={{ 
-        fontSize: '1.25rem', 
-        lineHeight: 1.8, 
-        color: 'var(--text)',
-        maxWidth: '800px',
+      <div style={{ 
+        padding: '1.5rem',
+        backgroundColor: 'var(--accent-warm)',
+        borderRadius: '0.5rem',
       }}>
-        {project.description}
-      </p>
+        <p style={{ 
+          fontSize: '1.25rem', 
+          lineHeight: 1.8, 
+          color: 'var(--text)',
+          marginBottom: 0,
+        }}>
+          {project.description}
+        </p>
+      </div>
     </header>
   )
 }

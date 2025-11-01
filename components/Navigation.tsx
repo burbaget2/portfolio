@@ -28,7 +28,7 @@ export default function Navigation() {
     >
       <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <a 
-          href="#home" 
+          href="/" 
           style={{ 
             display: 'flex', 
             alignItems: 'center', 
@@ -53,9 +53,9 @@ export default function Navigation() {
           </span>
         </a>
         <div style={{ display: 'flex', gap: '2rem' }}>
-          <a href="#about" style={{ color: 'var(--text)' }}>About</a>
-          <a href="#projects" style={{ color: 'var(--text)' }}>Projects</a>
-          <a href="#contact" style={{ color: 'var(--text)' }}>Contact</a>
+          <a href="/#about" style={{ color: 'var(--text)' }}>About</a>
+          <a href="/#projects" style={{ color: 'var(--text)' }}>Projects</a>
+          <a href="/#contact" style={{ color: 'var(--text)' }}>Contact</a>
         </div>
       </div>
     </nav>

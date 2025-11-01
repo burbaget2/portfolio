@@ -220,7 +220,9 @@ The screens were not crafted for aesthetic appeal; rather, they were designed to
     role: 'Creative Director / Interaction Architect',
     category: ['Gaming', 'Interactive Web', 'Marketing'],
     description: 'Creative Direction and Interaction Architecture for EA games websites, including Godfather, Need for Speed, and Battlefield. Key achievement was the redesign and interaction architecture for EA Battlefield 2 website, and design of industry first online game viewer and intelligence tool.',
-    longDescription: `Creative Direction and Interaction Architecture for EA games websites. Including Godfather, Need for Speed, and Battlefield. I worked with client to improve and deliver first class User Experience and also meet EA's marketing objectives. Interface design and conceptual development.
+    longDescription: `[Read IGN review of Game Viewer and Intelligence Tool](https://www.ign.com/articles/2005/11/05/battlefield-2s-modern-strategy)
+
+Creative Direction and Interaction Architecture for EA games websites. Including Godfather, Need for Speed, and Battlefield. I worked with client to improve and deliver first class User Experience and also meet EA's marketing objectives. Interface design and conceptual development.
 
 **Key achievement** was the redesign and interaction architecture for EA Battlefield 2 website, and design of industry first online game viewer and intelligence tool.
 
