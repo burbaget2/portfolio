@@ -5,7 +5,7 @@ import { projects } from '@/data/projects'
 
 export default function Projects() {
   return (
-    <section id="projects" className="section-oroya">
+    <section id="projects" className="section-burbs">
       <div className="container">
         <h2 className="section-brand-name">FEATURED PROJECTS</h2>
         

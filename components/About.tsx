@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section id="about" className="section-oroya about-section">
+    <section id="about" className="section-burbs about-section">
       <div className="container">
         <h2 className="section-brand-name">About Me</h2>
         

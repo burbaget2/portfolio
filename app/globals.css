@@ -124,12 +124,12 @@ a:hover {
   padding: 6rem 0;
 }
 
-.section-oroya {
+.section-burbs {
   padding: 6rem 0;
   position: relative;
 }
 
-.section-oroya:nth-child(even) {
+.section-burbs:nth-child(even) {
   background-color: var(--background-alt);
 }
 
@@ -167,8 +167,8 @@ a:hover {
   position: relative;
 }
 
-/* OROYA Typography Pattern - Two-line headers */
-.section-header-oroya {
+/* BURBS Typography Pattern - Two-line headers */
+.section-header-burbs {
   font-size: 1.25rem;
   font-weight: 700;
   letter-spacing: 0.15em;
@@ -199,8 +199,8 @@ a:hover {
   font-style: italic;
 }
 
-/* Quote Style - OROYA Pattern */
-.quote-oroya {
+/* Quote Style - BURBS Pattern */
+.quote-burbs {
   font-style: italic;
   font-size: 1.125rem;
   color: var(--text-light);
@@ -247,7 +247,7 @@ a:hover {
   color: var(--background);
 }
 
-/* OROYA Card Styles */
+/* BURBS Card Styles */
 .project-card {
   padding: 2.5rem 2rem;
   border-radius: 0.5rem;
@@ -263,7 +263,7 @@ a:hover {
   box-shadow: 0 10px 30px var(--shadow);
 }
 
-.card-grid-oroya {
+.card-grid-burbs {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
@@ -405,8 +405,8 @@ img:not([src]) {
   box-shadow: 0 10px 25px var(--shadow);
 }
 
-/* Hero Typography - OROYA Style */
-.hero-title-oroya {
+/* Hero Typography - BURBS Style */
+.hero-title-burbs {
   font-size: clamp(2.5rem, 8vw, 5rem);
   font-weight: 700;
   line-height: 1.1;
@@ -420,7 +420,7 @@ img:not([src]) {
   }
 
   .section,
-  .section-oroya {
+  .section-burbs {
     padding: 4rem 0;
   }
 
@@ -429,7 +429,7 @@ img:not([src]) {
     font-size: 2rem;
   }
 
-  .section-header-oroya {
+  .section-header-burbs {
     font-size: 1rem;
   }
 
@@ -437,11 +437,11 @@ img:not([src]) {
     font-size: 1rem;
   }
 
-  .hero-title-oroya {
+  .hero-title-burbs {
     font-size: 2.5rem;
   }
 
-  .card-grid-oroya {
+  .card-grid-burbs {
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }

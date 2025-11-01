@@ -23,7 +23,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
     <>
       <Navigation />
       <main style={{ paddingTop: '6rem' }}>
-        <article className="section-oroya" style={{ paddingTop: 0 }}>
+        <article className="section-burbs" style={{ paddingTop: 0 }}>
           <div className="container" style={{ maxWidth: '1000px' }}>
             <Link 
               href="/#projects"
