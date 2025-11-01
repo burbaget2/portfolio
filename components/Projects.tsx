@@ -7,7 +7,7 @@ export default function Projects() {
   return (
     <section id="projects" className="section-burbs">
       <div className="container">
-        <h2 className="section-brand-name">FEATURED PROJECTS</h2>
+        <h2 className="section-brand-name">Projects</h2>
         
         <div className="thumbnail-grid-staggered">
           {projects.map((project, index) => (

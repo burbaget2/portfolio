@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 
 export default function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false)
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -12,6 +13,10 @@ export default function Navigation() {
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
+
+  const handleLinkClick = () => {
+    setIsMobileMenuOpen(false)
+  }
 
   return (
     <nav
@@ -48,16 +53,100 @@ export default function Navigation() {
               border: '2px solid var(--border)',
             }}
           />
-          <span style={{ fontSize: '1.5rem', fontWeight: 700 }}>
+          <span style={{ fontSize: 'var(--font-size-xl)', fontWeight: 'var(--font-bold)' }}>
             Tony's Portfolio
           </span>
         </a>
-        <div style={{ display: 'flex', gap: '2rem' }}>
+        
+        {/* Desktop Navigation */}
+        <div className="desktop-nav" style={{ display: 'flex', gap: '2rem' }}>
           <a href="/#about" style={{ color: 'var(--accent-warm-dark)', fontWeight: 700 }}>About</a>
           <a href="/#projects" style={{ color: 'var(--accent-warm-dark)', fontWeight: 700 }}>Projects</a>
           <a href="/#contact" style={{ color: 'var(--accent-warm-dark)', fontWeight: 700 }}>Contact</a>
         </div>
+
+        {/* Mobile Hamburger Button */}
+        <button
+          className="mobile-menu-button"
+          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          style={{
+            display: 'none',
+            background: 'none',
+            border: 'none',
+            cursor: 'pointer',
+            padding: '0.5rem',
+            color: 'var(--text)',
+          }}
+          aria-label="Toggle menu"
+        >
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            {isMobileMenuOpen ? (
+              <>
+                <line x1="18" y1="6" x2="6" y2="18" />
+                <line x1="6" y1="6" x2="18" y2="18" />
+              </>
+            ) : (
+              <>
+                <line x1="3" y1="6" x2="21" y2="6" />
+                <line x1="3" y1="12" x2="21" y2="12" />
+                <line x1="3" y1="18" x2="21" y2="18" />
+              </>
+            )}
+          </svg>
+        </button>
       </div>
+
+      {/* Mobile Menu */}
+      {isMobileMenuOpen && (
+        <div 
+          className="mobile-nav"
+          style={{
+            display: 'none',
+            flexDirection: 'column',
+            gap: '1rem',
+            padding: '1rem 2rem',
+            backgroundColor: 'var(--background)',
+            borderTop: '1px solid var(--border)',
+          }}
+        >
+          <a 
+            href="/#about" 
+            onClick={handleLinkClick}
+            style={{ 
+              color: 'var(--accent-warm-dark)', 
+              fontWeight: 700,
+              padding: '0.75rem 0',
+              fontSize: '1.125rem'
+            }}
+          >
+            About
+          </a>
+          <a 
+            href="/#projects" 
+            onClick={handleLinkClick}
+            style={{ 
+              color: 'var(--accent-warm-dark)', 
+              fontWeight: 700,
+              padding: '0.75rem 0',
+              fontSize: '1.125rem'
+            }}
+          >
+            Projects
+          </a>
+          <a 
+            href="/#contact" 
+            onClick={handleLinkClick}
+            style={{ 
+              color: 'var(--accent-warm-dark)', 
+              fontWeight: 700,
+              padding: '0.75rem 0',
+              fontSize: '1.125rem'
+            }}
+          >
+            Contact
+          </a>
+        </div>
+      )}
     </nav>
   )
 }
