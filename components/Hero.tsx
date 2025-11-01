@@ -50,11 +50,11 @@ export default function Hero() {
         }}
       >
         <div className="container" style={{ textAlign: 'center', position: 'relative', zIndex: 1 }}>
-          <h1 className="hero-title-oroya" style={{ color: 'var(--text)' }}>
-            UX Designer & Creative
+          <h1 className="hero-title-burbs" style={{ color: 'var(--text)' }}>
+            Hi! I'm Tony
           </h1>
           <p style={{ fontSize: '1.5rem', marginBottom: '3rem', color: 'var(--text-light)', fontWeight: 300 }}>
-            Creating beautiful and intuitive user experiences
+            End-to-end UX and service design, and a groundbreaker in AI-based design implementation
           </p>
           <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
             <a href="#projects" className="btn">
