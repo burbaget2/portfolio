@@ -53,9 +53,9 @@ export default function Navigation() {
           </span>
         </a>
         <div style={{ display: 'flex', gap: '2rem' }}>
-          <a href="/#about" style={{ color: 'var(--text)' }}>About</a>
-          <a href="/#projects" style={{ color: 'var(--text)' }}>Projects</a>
-          <a href="/#contact" style={{ color: 'var(--text)' }}>Contact</a>
+          <a href="/#about" style={{ color: 'var(--accent-warm-dark)', fontWeight: 700 }}>About</a>
+          <a href="/#projects" style={{ color: 'var(--accent-warm-dark)', fontWeight: 700 }}>Projects</a>
+          <a href="/#contact" style={{ color: 'var(--accent-warm-dark)', fontWeight: 700 }}>Contact</a>
         </div>
       </div>
     </nav>

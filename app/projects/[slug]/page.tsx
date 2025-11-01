@@ -23,13 +23,13 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
     <>
       <Navigation />
       <main style={{ paddingTop: '6rem' }}>
-        <article className="section-oroya">
+        <article className="section-oroya" style={{ paddingTop: 0 }}>
           <div className="container" style={{ maxWidth: '1000px' }}>
             <Link 
               href="/#projects"
               style={{
                 display: 'inline-block',
-                marginBottom: '3rem',
+                marginBottom: '2rem',
                 color: 'var(--accent-warm-dark)',
                 textDecoration: 'none',
                 fontSize: '1rem',

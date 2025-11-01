@@ -7,7 +7,7 @@ interface ProjectHeaderProps {
 export default function ProjectHeader({ project }: ProjectHeaderProps) {
   return (
     <header>
-      <h1 className="section-brand-name" style={{ marginBottom: '1rem' }}>
+      <h1 className="section-title">
         {project.title}
       </h1>
       {(project.role || project.year || project.award) && (
