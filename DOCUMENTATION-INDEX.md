@@ -232,3 +232,4 @@ If you're an LLM or AI assistant taking over this project:
 
 **Key Takeaway**: When in doubt, check [PROJECT-DOCUMENTATION.md](./PROJECT-DOCUMENTATION.md) first. It's the single source of truth for this project.
 
+

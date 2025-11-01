@@ -26,13 +26,12 @@ export default function Hero() {
     return () => window.removeEventListener('scroll', optimizedScroll)
   }, [])
 
-  // Create morphing wave path based on scroll - waves will deform as you scroll
-  // Made more pronounced and visible
-  const morphFactor = Math.sin(scrollY * 0.02) * 50 // Creates wave morphing effect - faster frequency
-  const morphFactor2 = Math.cos(scrollY * 0.025) * 40 // Second wave for more complex morphing
-  const morphFactor3 = Math.sin(scrollY * 0.015) * 25 // Third factor for additional variation
-  // Ensure path extends fully from 0 to 1200 to avoid gaps
-  const wavePath = `M0,${175 + morphFactor} C${150 + morphFactor2},${310 + morphFactor + morphFactor3} ${300 - morphFactor2},${40 - morphFactor + morphFactor3} ${450 + morphFactor2},${175 + morphFactor} C${600 - morphFactor2},${310 + morphFactor - morphFactor3} ${750 + morphFactor2},${40 - morphFactor - morphFactor3} ${900 - morphFactor2},${175 + morphFactor} C${1050 + morphFactor2},${310 + morphFactor + morphFactor3} 1200,${40 - morphFactor + morphFactor3} 1200,${40 - morphFactor + morphFactor3} L1200,350 L0,350 Z`
+  // Create morphing wave path based on scroll - more noticeable motion
+  // Increased movement amplitude for more visible morphing
+  const morphFactor = Math.sin(scrollY * 0.008) * 40 // More movement when you scroll
+  const morphFactor2 = Math.cos(scrollY * 0.01) * 30 // Secondary movement for variation
+  // Single smooth curve with peak and rising right side
+  const wavePath = `M0,${200 + morphFactor} C${400 + morphFactor2},${150 + morphFactor + morphFactor2} ${800 - morphFactor2},${300 - morphFactor + morphFactor2} 1200,${140 + morphFactor} L1200,350 L0,350 Z`
   return (
     <>
       <section

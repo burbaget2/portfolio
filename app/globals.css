@@ -80,6 +80,10 @@ a:hover {
   background-color: var(--background-alt);
 }
 
+.about-section {
+  background-color: var(--accent-warm) !important;
+}
+
 /* Wave divider styles */
 .wave-divider {
   position: absolute;
