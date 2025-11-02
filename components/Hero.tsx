@@ -89,7 +89,7 @@ export default function Hero() {
           </svg>
           {/* Coffee stain image */}
           <img 
-            src="/images/coffeeStain.png"
+            src="/images/CoffeeStain.png"
             alt=""
             style={{
               position: 'absolute',
